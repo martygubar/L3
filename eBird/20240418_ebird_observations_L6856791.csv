@@ -1,0 +1,2 @@
+id,checklist_id,observed_on,species_code,scientific_name,common_name,how_many,location_id,location_name,state,country,latitude,longitude,obs_valid,loaded_timestamp,source
+OBS2069947299,CL25022,2024-04-18 16:35,norfli,Colaptes auratus,Northern Flicker,1,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1

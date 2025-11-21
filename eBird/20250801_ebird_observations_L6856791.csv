@@ -1,0 +1,15 @@
+id,checklist_id,observed_on,species_code,scientific_name,common_name,how_many,location_id,location_name,state,country,latitude,longitude,obs_valid,loaded_timestamp,source
+OBS3423669804,CL25022,2025-08-01 07:30,yebsap,Sphyrapicus varius,Yellow-bellied Sapsucker,1,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS3423669805,CL25022,2025-08-01 07:30,norfli,Colaptes auratus,Northern Flicker,1,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS3423669801,CL25022,2025-08-01 07:30,eawpew,Contopus virens,Eastern Wood-Pewee,1,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS3423669802,CL25022,2025-08-01 07:30,reevir1,Vireo olivaceus,Red-eyed Vireo,3,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS3423669798,CL25022,2025-08-01 07:30,blujay,Cyanocitta cristata,Blue Jay,6,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS3423669810,CL25022,2025-08-01 07:30,bkcchi,Poecile atricapillus,Black-capped Chickadee,5,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS3423669807,CL25022,2025-08-01 07:30,gockin,Regulus satrapa,Golden-crowned Kinglet,1,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS3423669803,CL25022,2025-08-01 07:30,whbnut,Sitta carolinensis,White-breasted Nuthatch,1,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS3423669808,CL25022,2025-08-01 07:30,rebnut,Sitta canadensis,Red-breasted Nuthatch,3,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS3423669799,CL25022,2025-08-01 07:30,herthr,Catharus guttatus,Hermit Thrush,2,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS3423669800,CL25022,2025-08-01 07:30,amerob,Turdus migratorius,American Robin,1,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS3423669797,CL25022,2025-08-01 07:30,daejun,Junco hyemalis,Dark-eyed Junco,3,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS3423669806,CL25022,2025-08-01 07:30,btbwar,Setophaga caerulescens,Black-throated Blue Warbler,2,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS3423669809,CL25022,2025-08-01 07:30,scatan,Piranga olivacea,Scarlet Tanager,2,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1

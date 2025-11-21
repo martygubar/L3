@@ -1,0 +1,16 @@
+id,checklist_id,observed_on,species_code,scientific_name,common_name,how_many,location_id,location_name,state,country,latitude,longitude,obs_valid,loaded_timestamp,source
+OBS3647520225,CL25022,2025-10-11 12:28,dowwoo,Dryobates pubescens,Downy Woodpecker,5,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS3647520222,CL25022,2025-10-11 12:28,buhvir,Vireo solitarius,Blue-headed Vireo,1,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS3647520224,CL25022,2025-10-11 12:28,blujay,Cyanocitta cristata,Blue Jay,7,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS3647520217,CL25022,2025-10-11 12:28,comrav,Corvus corax,Common Raven,3,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS3647520218,CL25022,2025-10-11 12:28,bkcchi,Poecile atricapillus,Black-capped Chickadee,2,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS3647520216,CL25022,2025-10-11 12:28,tuftit,Baeolophus bicolor,Tufted Titmouse,1,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS3647520219,CL25022,2025-10-11 12:28,whbnut,Sitta carolinensis,White-breasted Nuthatch,6,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS3647520226,CL25022,2025-10-11 12:28,rebnut,Sitta canadensis,Red-breasted Nuthatch,5,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS3647520214,CL25022,2025-10-11 12:28,herthr,Catharus guttatus,Hermit Thrush,1,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS3647520221,CL25022,2025-10-11 12:28,amerob,Turdus migratorius,American Robin,2,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS3647520228,CL25022,2025-10-11 12:28,purfin,Haemorhous purpureus,Purple Finch,1,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS3647520227,CL25022,2025-10-11 12:28,pinsis,Spinus pinus,Pine Siskin,1,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS3647520215,CL25022,2025-10-11 12:28,amegfi,Spinus tristis,American Goldfinch,2,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS3647520220,CL25022,2025-10-11 12:28,daejun,Junco hyemalis,Dark-eyed Junco,1,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS3647520223,CL25022,2025-10-11 12:28,yerwar,Setophaga coronata,Yellow-rumped Warbler,1,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1

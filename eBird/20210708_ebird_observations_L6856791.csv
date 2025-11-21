@@ -1,0 +1,8 @@
+id,checklist_id,observed_on,species_code,scientific_name,common_name,how_many,location_id,location_name,state,country,latitude,longitude,obs_valid,loaded_timestamp,source
+OBS1197047916,CL25022,2021-07-08 06:16,bkbcuc,Coccyzus erythropthalmus,Black-billed Cuckoo,1,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS1197047915,CL25022,2021-07-08 06:16,norfli,Colaptes auratus,Northern Flicker,1,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS1197047920,CL25022,2021-07-08 06:16,reevir1,Vireo olivaceus,Red-eyed Vireo,3,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS1197047921,CL25022,2021-07-08 06:16,whbnut,Sitta carolinensis,White-breasted Nuthatch,1,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS1197047917,CL25022,2021-07-08 06:16,herthr,Catharus guttatus,Hermit Thrush,1,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS1197047919,CL25022,2021-07-08 06:16,amerob,Turdus migratorius,American Robin,2,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS1197047918,CL25022,2021-07-08 06:16,ovenbi1,Seiurus aurocapilla,Ovenbird,2,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1

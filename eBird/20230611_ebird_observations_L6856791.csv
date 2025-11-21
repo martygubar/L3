@@ -1,0 +1,29 @@
+id,checklist_id,observed_on,species_code,scientific_name,common_name,how_many,location_id,location_name,state,country,latitude,longitude,obs_valid,loaded_timestamp,source
+OBS1757061115,CL25022,2023-06-11 08:49,brwhaw,Buteo platypterus,Broad-winged Hawk,3,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS1757061114,CL25022,2023-06-11 08:49,yebsap,Sphyrapicus varius,Yellow-bellied Sapsucker,2,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS1757061130,CL25022,2023-06-11 08:49,eawpew,Contopus virens,Eastern Wood-Pewee,2,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS1757061123,CL25022,2023-06-11 08:49,aldfly,Empidonax alnorum,Alder Flycatcher,2,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS1757061133,CL25022,2023-06-11 08:49,easpho,Sayornis phoebe,Eastern Phoebe,2,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS1757061117,CL25022,2023-06-11 08:49,grcfly,Myiarchus crinitus,Great Crested Flycatcher,1,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS1757061118,CL25022,2023-06-11 08:49,buhvir,Vireo solitarius,Blue-headed Vireo,1,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS1757061127,CL25022,2023-06-11 08:49,reevir1,Vireo olivaceus,Red-eyed Vireo,7,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS1757061112,CL25022,2023-06-11 08:49,blujay,Cyanocitta cristata,Blue Jay,1,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS1757061125,CL25022,2023-06-11 08:49,bkcchi,Poecile atricapillus,Black-capped Chickadee,1,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS1757061131,CL25022,2023-06-11 08:49,gockin,Regulus satrapa,Golden-crowned Kinglet,3,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS1757061136,CL25022,2023-06-11 08:49,rebnut,Sitta canadensis,Red-breasted Nuthatch,2,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS1757061128,CL25022,2023-06-11 08:49,swathr,Catharus ustulatus,Swainson's Thrush,1,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS1757061138,CL25022,2023-06-11 08:49,herthr,Catharus guttatus,Hermit Thrush,1,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS1757061120,CL25022,2023-06-11 08:49,cedwax,Bombycilla cedrorum,Cedar Waxwing,3,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS1757061122,CL25022,2023-06-11 08:49,purfin,Haemorhous purpureus,Purple Finch,1,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS1757061134,CL25022,2023-06-11 08:49,chispa,Spizella passerina,Chipping Sparrow,2,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS1757061116,CL25022,2023-06-11 08:49,daejun,Junco hyemalis,Dark-eyed Junco,4,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS1757061135,CL25022,2023-06-11 08:49,ovenbi1,Seiurus aurocapilla,Ovenbird,13,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS1757061111,CL25022,2023-06-11 08:49,bawwar,Mniotilta varia,Black-and-white Warbler,3,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS1757061119,CL25022,2023-06-11 08:49,norpar,Setophaga americana,Northern Parula,5,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS1757061124,CL25022,2023-06-11 08:49,magwar,Setophaga magnolia,Magnolia Warbler,3,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS1757061113,CL25022,2023-06-11 08:49,bkbwar,Setophaga fusca,Blackburnian Warbler,7,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS1757061132,CL25022,2023-06-11 08:49,btbwar,Setophaga caerulescens,Black-throated Blue Warbler,6,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS1757061129,CL25022,2023-06-11 08:49,yerwar,Setophaga coronata,Yellow-rumped Warbler,3,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS1757061121,CL25022,2023-06-11 08:49,btnwar,Setophaga virens,Black-throated Green Warbler,7,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS1757061126,CL25022,2023-06-11 08:49,canwar,Cardellina canadensis,Canada Warbler,1,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS1757061137,CL25022,2023-06-11 08:49,scatan,Piranga olivacea,Scarlet Tanager,1,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1

@@ -1,0 +1,18 @@
+{
+    "sciName": "Dryobates pubescens",
+    "comName": "Downy Woodpecker",
+    "speciesCode": "dowwoo",
+    "category": "species",
+    "taxonOrder": 11400.0,
+    "bandingCodes": [
+        "DOWO"
+    ],
+    "comNameCodes": [],
+    "sciNameCodes": [
+        "DRPU"
+    ],
+    "order": "Piciformes",
+    "familyCode": "picida1",
+    "familyComName": "Woodpeckers",
+    "familySciName": "Picidae"
+}

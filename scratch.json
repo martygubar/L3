@@ -1,0 +1,633 @@
+   {
+      "annotations": [
+        {
+          "uuid": "string",
+          "controlled_attribute_id": 0,
+          "controlled_value_id": 0,
+          "concatenated_attr_val": "string",
+          "user": {
+            "created_at": "2025-11-06T18:57:39.138Z",
+            "id": 0,
+            "icon": "string",
+            "icon_url": "string",
+            "identifications_count": 0,
+            "journal_posts_count": 0,
+            "login": "string",
+            "name": "string",
+            "observations_count": 0,
+            "orcid": "string",
+            "roles": [
+              "admin"
+            ],
+            "site_id": 0,
+            "species_count": 0,
+            "spam": true,
+            "suspended": true
+          },
+          "user_id": 0,
+          "vote_score": 0,
+          "votes": [
+            {
+              "id": 0,
+              "user_id": 0,
+              "vote_flag": true,
+              "vote_scope": "string",
+              "created_at": "2025-11-06T18:57:39.138Z"
+            }
+          ]
+        }
+      ],
+      "id": 0,
+      "cached_votes_total": 0,
+      "captive": true,
+      "comments": [
+        {
+          "id": 0,
+          "body": "string",
+          "created_at": "2025-11-06T18:57:39.138Z",
+          "created_at_details": {
+            "date": "2025-11-06",
+            "day": 0,
+            "hour": 0,
+            "month": 0,
+            "week": 0,
+            "year": 0
+          },
+          "user": {
+            "created_at": "2025-11-06T18:57:39.138Z",
+            "id": 0,
+            "icon": "string",
+            "icon_url": "string",
+            "identifications_count": 0,
+            "journal_posts_count": 0,
+            "login": "string",
+            "name": "string",
+            "observations_count": 0,
+            "orcid": "string",
+            "roles": [
+              "admin"
+            ],
+            "site_id": 0,
+            "species_count": 0,
+            "spam": true,
+            "suspended": true
+          },
+          "flags": [
+            {
+              "id": 0,
+              "flag": "string",
+              "comment": "string",
+              "resolved": true,
+              "user": {
+                "created_at": "2025-11-06T18:57:39.138Z",
+                "id": 0,
+                "icon": "string",
+                "icon_url": "string",
+                "identifications_count": 0,
+                "journal_posts_count": 0,
+                "login": "string",
+                "name": "string",
+                "observations_count": 0,
+                "orcid": "string",
+                "roles": [
+                  "admin"
+                ],
+                "site_id": 0,
+                "species_count": 0,
+                "spam": true,
+                "suspended": true
+              },
+              "created_at": "2025-11-06T18:57:39.138Z"
+            }
+          ],
+          "hidden": true,
+          "moderator_actions": [
+            {
+              "id": 0,
+              "created_at": "2025-11-06T18:57:39.138Z",
+              "created_at_details": {
+                "date": "2025-11-06",
+                "day": 0,
+                "hour": 0,
+                "month": 0,
+                "week": 0,
+                "year": 0
+              },
+              "user": {
+                "created_at": "2025-11-06T18:57:39.138Z",
+                "id": 0,
+                "icon": "string",
+                "icon_url": "string",
+                "identifications_count": 0,
+                "journal_posts_count": 0,
+                "login": "string",
+                "name": "string",
+                "observations_count": 0,
+                "orcid": "string",
+                "roles": [
+                  "admin"
+                ],
+                "site_id": 0,
+                "species_count": 0,
+                "spam": true,
+                "suspended": true
+              },
+              "action": "hide",
+              "reason": "string"
+            }
+          ],
+          "uuid": "string"
+        }
+      ],
+      "comments_count": 0,
+      "created_at": "2025-11-06T18:57:39.138Z",
+      "created_at_details": {
+        "date": "2025-11-06",
+        "day": 0,
+        "hour": 0,
+        "month": 0,
+        "week": 0,
+        "year": 0
+      },
+      "created_time_zone": "string",
+      "description": "string",
+      "faves_count": 0,
+      "geojson": {
+        "type": "string",
+        "coordinates": [
+          0
+        ]
+      },
+      "geoprivacy": "string",
+      "taxon_geoprivacy": "string",
+      "id_please": true,
+      "identifications_count": 0,
+      "identifications_most_agree": true,
+      "identifications_most_disagree": true,
+      "identifications_some_agree": true,
+      "license_code": "string",
+      "location": "string",
+      "private_location": "string",
+      "mappable": true,
+      "non_owner_ids": [
+        {
+          "id": 0,
+          "body": "string",
+          "created_at": "2025-11-06T18:57:39.138Z",
+          "created_at_details": {
+            "date": "2025-11-06",
+            "day": 0,
+            "hour": 0,
+            "month": 0,
+            "week": 0,
+            "year": 0
+          },
+          "user": {
+            "created_at": "2025-11-06T18:57:39.138Z",
+            "id": 0,
+            "icon": "string",
+            "icon_url": "string",
+            "identifications_count": 0,
+            "journal_posts_count": 0,
+            "login": "string",
+            "name": "string",
+            "observations_count": 0,
+            "orcid": "string",
+            "roles": [
+              "admin"
+            ],
+            "site_id": 0,
+            "species_count": 0,
+            "spam": true,
+            "suspended": true
+          }
+        }
+      ],
+      "num_identification_agreements": 0,
+      "num_identification_disagreements": 0,
+      "obscured": true,
+      "observed_on": "2025-11-06T18:57:39.138Z",
+      "observed_on_details": {
+        "date": "2025-11-06",
+        "day": 0,
+        "hour": 0,
+        "month": 0,
+        "week": 0,
+        "year": 0
+      },
+      "observed_on_string": "string",
+      "observed_time_zone": "string",
+      "ofvs": [
+        {
+          "name": "string",
+          "value": "string"
+        }
+      ],
+      "out_of_range": true,
+      "photos": [
+        {
+          "id": 0,
+          "attribution": "string",
+          "license_code": "string",
+          "url": "string"
+        }
+      ],
+      "place_guess": "string",
+      "private_place_guess": "string",
+      "place_ids": [
+        0
+      ],
+      "private_place_ids": [
+        0
+      ],
+      "positional_accuracy": 0,
+      "private_geojson": {
+        "type": "string",
+        "coordinates": [
+          0
+        ]
+      },
+      "project_ids": [
+        0
+      ],
+      "project_ids_with_curator_id": [
+        0
+      ],
+      "project_ids_without_curator_id": [
+        0
+      ],
+      "public_positional_accuracy": 0,
+      "quality_grade": "string",
+      "reviewed_by": [
+        0
+      ],
+      "site_id": 0,
+      "sounds": [
+        {
+          "id": 0,
+          "attribution": "string",
+          "license_code": "string"
+        }
+      ],
+      "species_guess": "string",
+      "tags": [
+        "string"
+      ],
+      "taxon": {
+        "id": 0,
+        "iconic_taxon_id": 0,
+        "iconic_taxon_name": "string",
+        "is_active": true,
+        "name": "string",
+        "preferred_common_name": "string",
+        "rank": "string",
+        "rank_level": 0,
+        "ancestor_ids": [
+          0
+        ],
+        "ancestry": "string",
+        "conservation_status": {
+          "source_id": 0,
+          "authority": "string",
+          "status": "string",
+          "status_name": "string",
+          "iucn": 0,
+          "geoprivacy": "string"
+        },
+        "endemic": true,
+        "establishment_means": {
+          "establishment_means": "string",
+          "place": {
+            "id": 0,
+            "name": "string",
+            "display_name": "string"
+          }
+        },
+        "introduced": true,
+        "native": true,
+        "threatened": true
+      },
+      "time_observed_at": "2025-11-06T18:57:39.138Z",
+      "time_zone_offset": "string",
+      "updated_at": "2025-11-06T18:57:39.138Z",
+      "uri": "string",
+      "user": {
+        "created_at": "2025-11-06T18:57:39.138Z",
+        "id": 0,
+        "icon": "string",
+        "icon_url": "string",
+        "identifications_count": 0,
+        "journal_posts_count": 0,
+        "login": "string",
+        "name": "string",
+        "observations_count": 0,
+        "orcid": "string",
+        "roles": [
+          "admin"
+        ],
+        "site_id": 0,
+        "species_count": 0,
+        "spam": true,
+        "suspended": true
+      },
+      "uuid": "string",
+      "verifiable": true,
+      "observation_photos": [
+        {
+          "id": 0,
+          "uuid": "string",
+          "photo": {
+            "id": 0,
+            "attribution": "string",
+            "license_code": "string",
+            "url": "string"
+          },
+          "position": 0
+        }
+      ],
+      "quality_metrics": [
+        {
+          "id": 0,
+          "user_id": 0,
+          "metric": "string",
+          "agree": true
+        }
+      ],
+      "flags": [
+        {
+          "id": 0,
+          "flag": "string",
+          "comment": "string",
+          "resolved": true,
+          "user": {
+            "created_at": "2025-11-06T18:57:39.138Z",
+            "id": 0,
+            "icon": "string",
+            "icon_url": "string",
+            "identifications_count": 0,
+            "journal_posts_count": 0,
+            "login": "string",
+            "name": "string",
+            "observations_count": 0,
+            "orcid": "string",
+            "roles": [
+              "admin"
+            ],
+            "site_id": 0,
+            "species_count": 0,
+            "spam": true,
+            "suspended": true
+          },
+          "created_at": "2025-11-06T18:57:39.138Z"
+        }
+      ],
+      "community_taxon_id": 0,
+      "faves": [
+        {
+          "id": 0,
+          "votable_id": 0,
+          "created_at": "2025-11-06T18:57:39.138Z",
+          "user": {
+            "created_at": "2025-11-06T18:57:39.138Z",
+            "id": 0,
+            "icon": "string",
+            "icon_url": "string",
+            "identifications_count": 0,
+            "journal_posts_count": 0,
+            "login": "string",
+            "name": "string",
+            "observations_count": 0,
+            "orcid": "string",
+            "roles": [
+              "admin"
+            ],
+            "site_id": 0,
+            "species_count": 0,
+            "spam": true,
+            "suspended": true
+          }
+        }
+      ],
+      "identifications": [
+        {
+          "id": 0,
+          "observation_id": 0,
+          "body": "string",
+          "category": "improving",
+          "created_at": "2025-11-06T18:57:39.138Z",
+          "updated_at": "2025-11-06T18:57:39.138Z",
+          "current": true,
+          "taxon": {
+            "id": 0,
+            "iconic_taxon_id": 0,
+            "iconic_taxon_name": "string",
+            "is_active": true,
+            "name": "string",
+            "preferred_common_name": "string",
+            "rank": "string",
+            "rank_level": 0,
+            "ancestor_ids": [
+              0
+            ],
+            "ancestry": "string",
+            "conservation_status": {
+              "source_id": 0,
+              "authority": "string",
+              "status": "string",
+              "status_name": "string",
+              "iucn": 0,
+              "geoprivacy": "string"
+            },
+            "endemic": true,
+            "establishment_means": {
+              "establishment_means": "string",
+              "place": {
+                "id": 0,
+                "name": "string",
+                "display_name": "string"
+              }
+            },
+            "introduced": true,
+            "native": true,
+            "threatened": true
+          },
+          "previous_observation_taxon": {
+            "id": 0,
+            "iconic_taxon_id": 0,
+            "iconic_taxon_name": "string",
+            "is_active": true,
+            "name": "string",
+            "preferred_common_name": "string",
+            "rank": "string",
+            "rank_level": 0,
+            "ancestor_ids": [
+              0
+            ],
+            "ancestry": "string",
+            "conservation_status": {
+              "source_id": 0,
+              "authority": "string",
+              "status": "string",
+              "status_name": "string",
+              "iucn": 0,
+              "geoprivacy": "string"
+            },
+            "endemic": true,
+            "establishment_means": {
+              "establishment_means": "string",
+              "place": {
+                "id": 0,
+                "name": "string",
+                "display_name": "string"
+              }
+            },
+            "introduced": true,
+            "native": true,
+            "threatened": true
+          },
+          "user": {
+            "created_at": "2025-11-06T18:57:39.138Z",
+            "id": 0,
+            "icon": "string",
+            "icon_url": "string",
+            "identifications_count": 0,
+            "journal_posts_count": 0,
+            "login": "string",
+            "name": "string",
+            "observations_count": 0,
+            "orcid": "string",
+            "roles": [
+              "admin"
+            ],
+            "site_id": 0,
+            "species_count": 0,
+            "spam": true,
+            "suspended": true
+          },
+          "uuid": "string",
+          "created_at_details": {
+            "date": "2025-11-06",
+            "day": 0,
+            "hour": 0,
+            "month": 0,
+            "week": 0,
+            "year": 0
+          },
+          "flags": [
+            {
+              "id": 0,
+              "flag": "string",
+              "comment": "string",
+              "resolved": true,
+              "user": {
+                "created_at": "2025-11-06T18:57:39.138Z",
+                "id": 0,
+                "icon": "string",
+                "icon_url": "string",
+                "identifications_count": 0,
+                "journal_posts_count": 0,
+                "login": "string",
+                "name": "string",
+                "observations_count": 0,
+                "orcid": "string",
+                "roles": [
+                  "admin"
+                ],
+                "site_id": 0,
+                "species_count": 0,
+                "spam": true,
+                "suspended": true
+              },
+              "created_at": "2025-11-06T18:57:39.138Z"
+            }
+          ],
+          "own_observation": true,
+          "taxon_change": {
+            "id": 0,
+            "type": "string"
+          },
+          "vision": true,
+          "disagreement": true,
+          "previous_observation_taxon_id": 0,
+          "spam": true,
+          "hidden": true,
+          "moderator_actions": [
+            {
+              "id": 0,
+              "created_at": "2025-11-06T18:57:39.138Z",
+              "created_at_details": {
+                "date": "2025-11-06",
+                "day": 0,
+                "hour": 0,
+                "month": 0,
+                "week": 0,
+                "year": 0
+              },
+              "user": {
+                "created_at": "2025-11-06T18:57:39.138Z",
+                "id": 0,
+                "icon": "string",
+                "icon_url": "string",
+                "identifications_count": 0,
+                "journal_posts_count": 0,
+                "login": "string",
+                "name": "string",
+                "observations_count": 0,
+                "orcid": "string",
+                "roles": [
+                  "admin"
+                ],
+                "site_id": 0,
+                "species_count": 0,
+                "spam": true,
+                "suspended": true
+              },
+              "action": "hide",
+              "reason": "string"
+            }
+          ]
+        }
+      ],
+      "oauth_application_id": 0,
+      "outlinks": [
+        {
+          "id": 0,
+          "source": "string",
+          "url": "string"
+        }
+      ],
+      "owners_identification_from_vision": true,
+      "preferences": {},
+      "project_observations": [
+        {
+          "id": 0,
+          "project_id": 0,
+          "observation_id": 0,
+          "curator_identification_id": 0,
+          "tracking_code": "string",
+          "prefers_curator_coordinate_access": true
+        }
+      ],
+      "spam": true,
+      "votes": [
+        {
+          "id": 0,
+          "user_id": 0,
+          "vote_flag": true,
+          "vote_scope": "string",
+          "created_at": "2025-11-06T18:57:39.138Z"
+        }
+      ],
+      "identification_disagreements_count": 0,
+      "ident_taxon_ids": [
+        0
+      ],
+      "map_scale": 0
+    }
+  ]
+}
+
+
+Response Content Type 
+application/json
+Parameters

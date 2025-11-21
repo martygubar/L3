@@ -1,0 +1,12 @@
+id,checklist_id,observed_on,species_code,scientific_name,common_name,how_many,location_id,location_name,state,country,latitude,longitude,obs_valid,loaded_timestamp,source
+OBS1778301675,CL25022,2023-07-08 10:40,moudov,Zenaida macroura,Mourning Dove,,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS1778301680,CL25022,2023-07-08 10:40,easpho,Sayornis phoebe,Eastern Phoebe,,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS1778301682,CL25022,2023-07-08 10:40,reevir1,Vireo olivaceus,Red-eyed Vireo,,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS1778301676,CL25022,2023-07-08 10:40,bkcchi,Poecile atricapillus,Black-capped Chickadee,,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS1778301681,CL25022,2023-07-08 10:40,veery,Catharus fuscescens,Veery,,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS1778301685,CL25022,2023-07-08 10:40,herthr,Catharus guttatus,Hermit Thrush,,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS1778301679,CL25022,2023-07-08 10:40,daejun,Junco hyemalis,Dark-eyed Junco,,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS1778301684,CL25022,2023-07-08 10:40,ovenbi1,Seiurus aurocapilla,Ovenbird,,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS1778301678,CL25022,2023-07-08 10:40,bkbwar,Setophaga fusca,Blackburnian Warbler,,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS1778301683,CL25022,2023-07-08 10:40,chswar,Setophaga pensylvanica,Chestnut-sided Warbler,,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS1778301677,CL25022,2023-07-08 10:40,btnwar,Setophaga virens,Black-throated Green Warbler,,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1

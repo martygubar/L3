@@ -1,0 +1,6 @@
+id,checklist_id,observed_on,species_code,scientific_name,common_name,how_many,location_id,location_name,state,country,latitude,longitude,obs_valid,loaded_timestamp,source
+OBS1264052424,CL25022,2021-10-05 10:15,comrav,Corvus corax,Common Raven,2,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS1264052423,CL25022,2021-10-05 10:15,winwre3,Troglodytes hiemalis,Winter Wren,1,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS1264062626,CL25022,2021-10-05 10:15,daejun,Junco hyemalis,Dark-eyed Junco,4,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS1264062627,CL25022,2021-10-05 10:15,whtspa,Zonotrichia albicollis,White-throated Sparrow,1,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS1264052425,CL25022,2021-10-05 10:15,yerwar,Setophaga coronata,Yellow-rumped Warbler,3,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1

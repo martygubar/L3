@@ -1,0 +1,6 @@
+id,checklist_id,observed_on,species_code,scientific_name,common_name,how_many,location_id,location_name,state,country,latitude,longitude,obs_valid,loaded_timestamp,source
+OBS576310954,CL25022,2018-02-10 11:00,dowwoo,Dryobates pubescens,Downy Woodpecker,1,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS576310952,CL25022,2018-02-10 11:00,blujay,Cyanocitta cristata,Blue Jay,5,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS576310955,CL25022,2018-02-10 11:00,bkcchi,Poecile atricapillus,Black-capped Chickadee,3,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS576310953,CL25022,2018-02-10 11:00,gockin,Regulus satrapa,Golden-crowned Kinglet,2,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS576310951,CL25022,2018-02-10 11:00,amegfi,Spinus tristis,American Goldfinch,12,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1

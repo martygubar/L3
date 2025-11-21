@@ -1,0 +1,13 @@
+id,checklist_id,observed_on,species_code,scientific_name,common_name,how_many,location_id,location_name,state,country,latitude,longitude,obs_valid,loaded_timestamp,source
+OBS2150225437,CL25022,2024-05-12 13:30,turvul,Cathartes aura,Turkey Vulture,1,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS2150225429,CL25022,2024-05-12 13:30,brwhaw,Buteo platypterus,Broad-winged Hawk,1,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS2150225427,CL25022,2024-05-12 13:30,pilwoo,Dryocopus pileatus,Pileated Woodpecker,1,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS2150225430,CL25022,2024-05-12 13:30,easpho,Sayornis phoebe,Eastern Phoebe,1,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS2150225434,CL25022,2024-05-12 13:30,amecro,Corvus brachyrhynchos,American Crow,1,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS2150225436,CL25022,2024-05-12 13:30,herthr,Catharus guttatus,Hermit Thrush,1,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS2150225431,CL25022,2024-05-12 13:30,amerob,Turdus migratorius,American Robin,1,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS2150225438,CL25022,2024-05-12 13:30,amegfi,Spinus tristis,American Goldfinch,1,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS2150225433,CL25022,2024-05-12 13:30,norwat,Parkesia noveboracensis,Northern Waterthrush,1,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS2150225432,CL25022,2024-05-12 13:30,bawwar,Mniotilta varia,Black-and-white Warbler,1,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS2150225428,CL25022,2024-05-12 13:30,comyel,Geothlypis trichas,Common Yellowthroat,1,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
+OBS2150225435,CL25022,2024-05-12 13:30,btbwar,Setophaga caerulescens,Black-throated Blue Warbler,1,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-11-20 19:12:23,1
