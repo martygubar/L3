@@ -36,7 +36,7 @@ def flatten_observation(obs):
         "obs_valid": obs.get("obsValid")
     }
 
-def fetch_ebird_observations(loaded_timestamp, region_code, year, month, day, detail="full"):
+def fetch_observations(loaded_timestamp, region_code, year, month, day, detail="full"):
     logging.info(f"Script run for date: {year}-{month:02d}-{day:02d}, region: {region_code}")
     ebird_api_key = "dluifppbf37a"
 
@@ -81,10 +81,10 @@ def fetch_ebird_observations(loaded_timestamp, region_code, year, month, day, de
     except Exception as e:
         logging.error(f"Exception occurred: {str(e)}")
 
-def fetch_ebird_every_day(loaded_timestamp,region_code, start_date, end_date, detail="full"):
+def fetch_every_day(loaded_timestamp,region_code, start_date, end_date, detail="full"):
     current_date = start_date
     while current_date <= end_date:
-        fetch_ebird_observations(
+        fetch_observations(
             loaded_timestamp=loaded_timestamp,
             region_code=region_code,
             year=current_date.year,
@@ -108,7 +108,7 @@ def main():
     region_code = args.region_code
     current_timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
-    fetch_ebird_every_day(loaded_timestamp=current_timestamp, region_code=region_code, start_date=start_date, end_date=end_date, detail="full")
+    fetch_every_day(loaded_timestamp=current_timestamp, region_code=region_code, start_date=start_date, end_date=end_date, detail="full")
 
 if __name__ == "__main__":
     main()
