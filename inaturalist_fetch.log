@@ -1,0 +1,427 @@
+2025-12-01 12:23:33 INFO: Script run for date: 2025-07, region: Long Mountain Trail
+2025-12-01 12:23:34 INFO: Number of records found: 30
+2025-12-01 12:23:40 INFO: Fetched page 1 with 30 observations
+2025-12-01 12:23:45 INFO: Export saved to ./iNaturalist/202507_inaturalist_observations_long_mountain_trail.csv
+2025-12-01 12:25:57 INFO: Script run for date: 2017-01, region: Long Mountain Trail
+2025-12-01 12:25:57 INFO: Number of records found: 0
+2025-12-01 12:25:57 INFO: No observations found for the specified date and region.
+2025-12-01 12:25:57 INFO: No observations to write to CSV.
+2025-12-01 12:25:57 INFO: Script run for date: 2017-02, region: Long Mountain Trail
+2025-12-01 12:25:58 INFO: Number of records found: 0
+2025-12-01 12:25:58 INFO: No observations found for the specified date and region.
+2025-12-01 12:25:58 INFO: No observations to write to CSV.
+2025-12-01 12:25:58 INFO: Script run for date: 2017-03, region: Long Mountain Trail
+2025-12-01 12:25:59 INFO: Number of records found: 0
+2025-12-01 12:25:59 INFO: No observations found for the specified date and region.
+2025-12-01 12:25:59 INFO: No observations to write to CSV.
+2025-12-01 12:25:59 INFO: Script run for date: 2017-04, region: Long Mountain Trail
+2025-12-01 12:25:59 INFO: Number of records found: 0
+2025-12-01 12:25:59 INFO: No observations found for the specified date and region.
+2025-12-01 12:25:59 INFO: No observations to write to CSV.
+2025-12-01 12:25:59 INFO: Script run for date: 2017-05, region: Long Mountain Trail
+2025-12-01 12:26:00 INFO: Number of records found: 0
+2025-12-01 12:26:00 INFO: No observations found for the specified date and region.
+2025-12-01 12:26:00 INFO: No observations to write to CSV.
+2025-12-01 12:26:00 INFO: Script run for date: 2017-06, region: Long Mountain Trail
+2025-12-01 12:26:00 INFO: Number of records found: 0
+2025-12-01 12:26:00 INFO: No observations found for the specified date and region.
+2025-12-01 12:26:00 INFO: No observations to write to CSV.
+2025-12-01 12:26:00 INFO: Script run for date: 2017-07, region: Long Mountain Trail
+2025-12-01 12:26:01 INFO: Number of records found: 0
+2025-12-01 12:26:01 INFO: No observations found for the specified date and region.
+2025-12-01 12:26:01 INFO: No observations to write to CSV.
+2025-12-01 12:26:01 INFO: Script run for date: 2017-08, region: Long Mountain Trail
+2025-12-01 12:26:01 INFO: Number of records found: 0
+2025-12-01 12:26:01 INFO: No observations found for the specified date and region.
+2025-12-01 12:26:01 INFO: No observations to write to CSV.
+2025-12-01 12:26:01 INFO: Script run for date: 2017-09, region: Long Mountain Trail
+2025-12-01 12:26:02 INFO: Number of records found: 0
+2025-12-01 12:26:02 INFO: No observations found for the specified date and region.
+2025-12-01 12:26:02 INFO: No observations to write to CSV.
+2025-12-01 12:26:02 INFO: Script run for date: 2017-10, region: Long Mountain Trail
+2025-12-01 12:26:02 INFO: Number of records found: 0
+2025-12-01 12:26:02 INFO: No observations found for the specified date and region.
+2025-12-01 12:26:02 INFO: No observations to write to CSV.
+2025-12-01 12:26:02 INFO: Script run for date: 2017-11, region: Long Mountain Trail
+2025-12-01 12:26:03 INFO: Number of records found: 0
+2025-12-01 12:26:03 INFO: No observations found for the specified date and region.
+2025-12-01 12:26:03 INFO: No observations to write to CSV.
+2025-12-01 12:26:03 INFO: Script run for date: 2017-12, region: Long Mountain Trail
+2025-12-01 12:26:03 INFO: Number of records found: 0
+2025-12-01 12:26:03 INFO: No observations found for the specified date and region.
+2025-12-01 12:26:03 INFO: No observations to write to CSV.
+2025-12-01 12:26:03 INFO: Script run for date: 2018-01, region: Long Mountain Trail
+2025-12-01 12:26:04 INFO: Number of records found: 0
+2025-12-01 12:26:04 INFO: No observations found for the specified date and region.
+2025-12-01 12:26:04 INFO: No observations to write to CSV.
+2025-12-01 12:26:04 INFO: Script run for date: 2018-02, region: Long Mountain Trail
+2025-12-01 12:26:04 INFO: Number of records found: 0
+2025-12-01 12:26:04 INFO: No observations found for the specified date and region.
+2025-12-01 12:26:04 INFO: No observations to write to CSV.
+2025-12-01 12:26:04 INFO: Script run for date: 2018-03, region: Long Mountain Trail
+2025-12-01 12:26:05 INFO: Number of records found: 0
+2025-12-01 12:26:05 INFO: No observations found for the specified date and region.
+2025-12-01 12:26:05 INFO: No observations to write to CSV.
+2025-12-01 12:26:05 INFO: Script run for date: 2018-04, region: Long Mountain Trail
+2025-12-01 12:26:05 INFO: Number of records found: 0
+2025-12-01 12:26:05 INFO: No observations found for the specified date and region.
+2025-12-01 12:26:05 INFO: No observations to write to CSV.
+2025-12-01 12:26:05 INFO: Script run for date: 2018-05, region: Long Mountain Trail
+2025-12-01 12:26:06 INFO: Number of records found: 0
+2025-12-01 12:26:06 INFO: No observations found for the specified date and region.
+2025-12-01 12:26:06 INFO: No observations to write to CSV.
+2025-12-01 12:26:06 INFO: Script run for date: 2018-06, region: Long Mountain Trail
+2025-12-01 12:26:06 INFO: Number of records found: 0
+2025-12-01 12:26:06 INFO: No observations found for the specified date and region.
+2025-12-01 12:26:06 INFO: No observations to write to CSV.
+2025-12-01 12:26:06 INFO: Script run for date: 2018-07, region: Long Mountain Trail
+2025-12-01 12:26:07 INFO: Number of records found: 1
+2025-12-01 12:26:07 INFO: Fetched page 1 with 1 observations
+2025-12-01 12:26:07 INFO: Export saved to ./iNaturalist/201807_inaturalist_observations_long_mountain_trail.csv
+2025-12-01 12:26:07 INFO: Script run for date: 2018-08, region: Long Mountain Trail
+2025-12-01 12:26:08 INFO: Number of records found: 0
+2025-12-01 12:26:08 INFO: No observations found for the specified date and region.
+2025-12-01 12:26:08 INFO: No observations to write to CSV.
+2025-12-01 12:26:08 INFO: Script run for date: 2018-09, region: Long Mountain Trail
+2025-12-01 12:26:08 INFO: Number of records found: 0
+2025-12-01 12:26:08 INFO: No observations found for the specified date and region.
+2025-12-01 12:26:08 INFO: No observations to write to CSV.
+2025-12-01 12:26:08 INFO: Script run for date: 2018-10, region: Long Mountain Trail
+2025-12-01 12:26:09 INFO: Number of records found: 1
+2025-12-01 12:26:09 INFO: Fetched page 1 with 1 observations
+2025-12-01 12:26:09 INFO: Export saved to ./iNaturalist/201810_inaturalist_observations_long_mountain_trail.csv
+2025-12-01 12:26:09 INFO: Script run for date: 2018-11, region: Long Mountain Trail
+2025-12-01 12:26:09 INFO: Number of records found: 0
+2025-12-01 12:26:09 INFO: No observations found for the specified date and region.
+2025-12-01 12:26:09 INFO: No observations to write to CSV.
+2025-12-01 12:26:09 INFO: Script run for date: 2018-12, region: Long Mountain Trail
+2025-12-01 12:26:09 INFO: Number of records found: 0
+2025-12-01 12:26:09 INFO: No observations found for the specified date and region.
+2025-12-01 12:26:09 INFO: No observations to write to CSV.
+2025-12-01 12:26:09 INFO: Script run for date: 2019-01, region: Long Mountain Trail
+2025-12-01 12:26:10 INFO: Number of records found: 0
+2025-12-01 12:26:10 INFO: No observations found for the specified date and region.
+2025-12-01 12:26:10 INFO: No observations to write to CSV.
+2025-12-01 12:26:10 INFO: Script run for date: 2019-02, region: Long Mountain Trail
+2025-12-01 12:26:10 INFO: Number of records found: 0
+2025-12-01 12:26:10 INFO: No observations found for the specified date and region.
+2025-12-01 12:26:10 INFO: No observations to write to CSV.
+2025-12-01 12:26:10 INFO: Script run for date: 2019-03, region: Long Mountain Trail
+2025-12-01 12:26:11 INFO: Number of records found: 0
+2025-12-01 12:26:11 INFO: No observations found for the specified date and region.
+2025-12-01 12:26:11 INFO: No observations to write to CSV.
+2025-12-01 12:26:11 INFO: Script run for date: 2019-04, region: Long Mountain Trail
+2025-12-01 12:26:11 INFO: Number of records found: 0
+2025-12-01 12:26:11 INFO: No observations found for the specified date and region.
+2025-12-01 12:26:11 INFO: No observations to write to CSV.
+2025-12-01 12:26:11 INFO: Script run for date: 2019-05, region: Long Mountain Trail
+2025-12-01 12:26:12 INFO: Number of records found: 1
+2025-12-01 12:26:12 INFO: Fetched page 1 with 1 observations
+2025-12-01 12:26:12 INFO: Export saved to ./iNaturalist/201905_inaturalist_observations_long_mountain_trail.csv
+2025-12-01 12:26:12 INFO: Script run for date: 2019-06, region: Long Mountain Trail
+2025-12-01 12:26:13 INFO: Number of records found: 0
+2025-12-01 12:26:13 INFO: No observations found for the specified date and region.
+2025-12-01 12:26:13 INFO: No observations to write to CSV.
+2025-12-01 12:26:13 INFO: Script run for date: 2019-07, region: Long Mountain Trail
+2025-12-01 12:26:13 INFO: Number of records found: 1
+2025-12-01 12:26:13 INFO: Fetched page 1 with 1 observations
+2025-12-01 12:26:13 INFO: Export saved to ./iNaturalist/201907_inaturalist_observations_long_mountain_trail.csv
+2025-12-01 12:26:13 INFO: Script run for date: 2019-08, region: Long Mountain Trail
+2025-12-01 12:26:14 INFO: Number of records found: 1
+2025-12-01 12:26:14 INFO: Fetched page 1 with 1 observations
+2025-12-01 12:26:14 INFO: Export saved to ./iNaturalist/201908_inaturalist_observations_long_mountain_trail.csv
+2025-12-01 12:26:14 INFO: Script run for date: 2019-09, region: Long Mountain Trail
+2025-12-01 12:26:15 INFO: Number of records found: 1
+2025-12-01 12:26:15 INFO: Fetched page 1 with 1 observations
+2025-12-01 12:26:15 INFO: Export saved to ./iNaturalist/201909_inaturalist_observations_long_mountain_trail.csv
+2025-12-01 12:26:15 INFO: Script run for date: 2019-10, region: Long Mountain Trail
+2025-12-01 12:26:15 INFO: Number of records found: 0
+2025-12-01 12:26:15 INFO: No observations found for the specified date and region.
+2025-12-01 12:26:15 INFO: No observations to write to CSV.
+2025-12-01 12:26:15 INFO: Script run for date: 2019-11, region: Long Mountain Trail
+2025-12-01 12:26:16 INFO: Number of records found: 0
+2025-12-01 12:26:16 INFO: No observations found for the specified date and region.
+2025-12-01 12:26:16 INFO: No observations to write to CSV.
+2025-12-01 12:26:16 INFO: Script run for date: 2019-12, region: Long Mountain Trail
+2025-12-01 12:26:16 INFO: Number of records found: 0
+2025-12-01 12:26:16 INFO: No observations found for the specified date and region.
+2025-12-01 12:26:16 INFO: No observations to write to CSV.
+2025-12-01 12:26:16 INFO: Script run for date: 2020-01, region: Long Mountain Trail
+2025-12-01 12:26:17 INFO: Number of records found: 0
+2025-12-01 12:26:17 INFO: No observations found for the specified date and region.
+2025-12-01 12:26:17 INFO: No observations to write to CSV.
+2025-12-01 12:26:17 INFO: Script run for date: 2020-02, region: Long Mountain Trail
+2025-12-01 12:26:17 INFO: Number of records found: 0
+2025-12-01 12:26:17 INFO: No observations found for the specified date and region.
+2025-12-01 12:26:17 INFO: No observations to write to CSV.
+2025-12-01 12:26:17 INFO: Script run for date: 2020-03, region: Long Mountain Trail
+2025-12-01 12:26:17 INFO: Number of records found: 0
+2025-12-01 12:26:17 INFO: No observations found for the specified date and region.
+2025-12-01 12:26:17 INFO: No observations to write to CSV.
+2025-12-01 12:26:17 INFO: Script run for date: 2020-04, region: Long Mountain Trail
+2025-12-01 12:26:18 INFO: Number of records found: 0
+2025-12-01 12:26:18 INFO: No observations found for the specified date and region.
+2025-12-01 12:26:18 INFO: No observations to write to CSV.
+2025-12-01 12:26:18 INFO: Script run for date: 2020-05, region: Long Mountain Trail
+2025-12-01 12:26:19 INFO: Number of records found: 0
+2025-12-01 12:26:19 INFO: No observations found for the specified date and region.
+2025-12-01 12:26:19 INFO: No observations to write to CSV.
+2025-12-01 12:26:19 INFO: Script run for date: 2020-06, region: Long Mountain Trail
+2025-12-01 12:26:19 INFO: Number of records found: 0
+2025-12-01 12:26:19 INFO: No observations found for the specified date and region.
+2025-12-01 12:26:19 INFO: No observations to write to CSV.
+2025-12-01 12:26:19 INFO: Script run for date: 2020-07, region: Long Mountain Trail
+2025-12-01 12:26:20 INFO: Number of records found: 0
+2025-12-01 12:26:20 INFO: No observations found for the specified date and region.
+2025-12-01 12:26:20 INFO: No observations to write to CSV.
+2025-12-01 12:26:20 INFO: Script run for date: 2020-08, region: Long Mountain Trail
+2025-12-01 12:26:20 INFO: Number of records found: 0
+2025-12-01 12:26:20 INFO: No observations found for the specified date and region.
+2025-12-01 12:26:20 INFO: No observations to write to CSV.
+2025-12-01 12:26:20 INFO: Script run for date: 2020-09, region: Long Mountain Trail
+2025-12-01 12:26:21 INFO: Number of records found: 0
+2025-12-01 12:26:21 INFO: No observations found for the specified date and region.
+2025-12-01 12:26:21 INFO: No observations to write to CSV.
+2025-12-01 12:26:21 INFO: Script run for date: 2020-10, region: Long Mountain Trail
+2025-12-01 12:26:21 INFO: Number of records found: 0
+2025-12-01 12:26:21 INFO: No observations found for the specified date and region.
+2025-12-01 12:26:21 INFO: No observations to write to CSV.
+2025-12-01 12:26:21 INFO: Script run for date: 2020-11, region: Long Mountain Trail
+2025-12-01 12:26:22 INFO: Number of records found: 0
+2025-12-01 12:26:22 INFO: No observations found for the specified date and region.
+2025-12-01 12:26:22 INFO: No observations to write to CSV.
+2025-12-01 12:26:22 INFO: Script run for date: 2020-12, region: Long Mountain Trail
+2025-12-01 12:26:22 INFO: Number of records found: 0
+2025-12-01 12:26:22 INFO: No observations found for the specified date and region.
+2025-12-01 12:26:22 INFO: No observations to write to CSV.
+2025-12-01 12:26:22 INFO: Script run for date: 2021-01, region: Long Mountain Trail
+2025-12-01 12:26:24 INFO: Number of records found: 0
+2025-12-01 12:26:24 INFO: No observations found for the specified date and region.
+2025-12-01 12:26:24 INFO: No observations to write to CSV.
+2025-12-01 12:26:24 INFO: Script run for date: 2021-02, region: Long Mountain Trail
+2025-12-01 12:26:24 INFO: Number of records found: 0
+2025-12-01 12:26:24 INFO: No observations found for the specified date and region.
+2025-12-01 12:26:24 INFO: No observations to write to CSV.
+2025-12-01 12:26:24 INFO: Script run for date: 2021-03, region: Long Mountain Trail
+2025-12-01 12:26:24 INFO: Number of records found: 0
+2025-12-01 12:26:24 INFO: No observations found for the specified date and region.
+2025-12-01 12:26:24 INFO: No observations to write to CSV.
+2025-12-01 12:26:24 INFO: Script run for date: 2021-04, region: Long Mountain Trail
+2025-12-01 12:26:25 INFO: Number of records found: 0
+2025-12-01 12:26:25 INFO: No observations found for the specified date and region.
+2025-12-01 12:26:25 INFO: No observations to write to CSV.
+2025-12-01 12:26:25 INFO: Script run for date: 2021-05, region: Long Mountain Trail
+2025-12-01 12:26:25 INFO: Number of records found: 0
+2025-12-01 12:26:25 INFO: No observations found for the specified date and region.
+2025-12-01 12:26:25 INFO: No observations to write to CSV.
+2025-12-01 12:26:25 INFO: Script run for date: 2021-06, region: Long Mountain Trail
+2025-12-01 12:26:26 INFO: Number of records found: 0
+2025-12-01 12:26:26 INFO: No observations found for the specified date and region.
+2025-12-01 12:26:26 INFO: No observations to write to CSV.
+2025-12-01 12:26:26 INFO: Script run for date: 2021-07, region: Long Mountain Trail
+2025-12-01 12:26:26 INFO: Number of records found: 3
+2025-12-01 12:26:26 INFO: Fetched page 1 with 3 observations
+2025-12-01 12:26:26 INFO: Export saved to ./iNaturalist/202107_inaturalist_observations_long_mountain_trail.csv
+2025-12-01 12:26:26 INFO: Script run for date: 2021-08, region: Long Mountain Trail
+2025-12-01 12:26:27 INFO: Number of records found: 1
+2025-12-01 12:26:27 INFO: Fetched page 1 with 1 observations
+2025-12-01 12:26:27 INFO: Export saved to ./iNaturalist/202108_inaturalist_observations_long_mountain_trail.csv
+2025-12-01 12:26:27 INFO: Script run for date: 2021-09, region: Long Mountain Trail
+2025-12-01 12:26:27 INFO: Number of records found: 2
+2025-12-01 12:26:27 INFO: Fetched page 1 with 2 observations
+2025-12-01 12:26:27 INFO: Export saved to ./iNaturalist/202109_inaturalist_observations_long_mountain_trail.csv
+2025-12-01 12:26:27 INFO: Script run for date: 2021-10, region: Long Mountain Trail
+2025-12-01 12:26:28 INFO: Number of records found: 1
+2025-12-01 12:26:28 INFO: Fetched page 1 with 1 observations
+2025-12-01 12:26:28 INFO: Export saved to ./iNaturalist/202110_inaturalist_observations_long_mountain_trail.csv
+2025-12-01 12:26:28 INFO: Script run for date: 2021-11, region: Long Mountain Trail
+2025-12-01 12:26:29 INFO: Number of records found: 0
+2025-12-01 12:26:29 INFO: No observations found for the specified date and region.
+2025-12-01 12:26:29 INFO: No observations to write to CSV.
+2025-12-01 12:26:29 INFO: Script run for date: 2021-12, region: Long Mountain Trail
+2025-12-01 12:26:29 INFO: Number of records found: 0
+2025-12-01 12:26:29 INFO: No observations found for the specified date and region.
+2025-12-01 12:26:29 INFO: No observations to write to CSV.
+2025-12-01 12:26:29 INFO: Script run for date: 2022-01, region: Long Mountain Trail
+2025-12-01 12:26:30 INFO: Number of records found: 0
+2025-12-01 12:26:30 INFO: No observations found for the specified date and region.
+2025-12-01 12:26:30 INFO: No observations to write to CSV.
+2025-12-01 12:26:30 INFO: Script run for date: 2022-02, region: Long Mountain Trail
+2025-12-01 12:26:30 INFO: Error fetching data. Status code: 429
+2025-12-01 12:26:30 INFO: No observations to write to CSV.
+2025-12-01 12:26:30 INFO: Script run for date: 2022-03, region: Long Mountain Trail
+2025-12-01 12:26:30 INFO: Error fetching data. Status code: 429
+2025-12-01 12:26:30 INFO: No observations to write to CSV.
+2025-12-01 12:26:30 INFO: Script run for date: 2022-04, region: Long Mountain Trail
+2025-12-01 12:26:31 INFO: Number of records found: 0
+2025-12-01 12:26:31 INFO: No observations found for the specified date and region.
+2025-12-01 12:26:31 INFO: No observations to write to CSV.
+2025-12-01 12:26:31 INFO: Script run for date: 2022-05, region: Long Mountain Trail
+2025-12-01 12:26:31 INFO: Error fetching data. Status code: 429
+2025-12-01 12:26:31 INFO: No observations to write to CSV.
+2025-12-01 12:26:31 INFO: Script run for date: 2022-06, region: Long Mountain Trail
+2025-12-01 12:26:32 INFO: Error fetching data. Status code: 429
+2025-12-01 12:26:32 INFO: No observations to write to CSV.
+2025-12-01 12:26:32 INFO: Script run for date: 2022-07, region: Long Mountain Trail
+2025-12-01 12:26:32 INFO: Number of records found: 0
+2025-12-01 12:26:32 INFO: No observations found for the specified date and region.
+2025-12-01 12:26:32 INFO: No observations to write to CSV.
+2025-12-01 12:26:32 INFO: Script run for date: 2022-08, region: Long Mountain Trail
+2025-12-01 12:26:32 INFO: Error fetching data. Status code: 429
+2025-12-01 12:26:32 INFO: No observations to write to CSV.
+2025-12-01 12:26:32 INFO: Script run for date: 2022-09, region: Long Mountain Trail
+2025-12-01 12:26:33 INFO: Error fetching data. Status code: 429
+2025-12-01 12:26:33 INFO: No observations to write to CSV.
+2025-12-01 12:26:33 INFO: Script run for date: 2022-10, region: Long Mountain Trail
+2025-12-01 12:26:33 INFO: Number of records found: 0
+2025-12-01 12:26:33 INFO: No observations found for the specified date and region.
+2025-12-01 12:26:33 INFO: No observations to write to CSV.
+2025-12-01 12:26:33 INFO: Script run for date: 2022-11, region: Long Mountain Trail
+2025-12-01 12:26:34 INFO: Error fetching data. Status code: 429
+2025-12-01 12:26:34 INFO: No observations to write to CSV.
+2025-12-01 12:26:34 INFO: Script run for date: 2022-12, region: Long Mountain Trail
+2025-12-01 12:26:34 INFO: Error fetching data. Status code: 429
+2025-12-01 12:26:34 INFO: No observations to write to CSV.
+2025-12-01 12:26:34 INFO: Script run for date: 2023-01, region: Long Mountain Trail
+2025-12-01 12:26:34 INFO: Number of records found: 0
+2025-12-01 12:26:34 INFO: No observations found for the specified date and region.
+2025-12-01 12:26:34 INFO: No observations to write to CSV.
+2025-12-01 12:26:34 INFO: Script run for date: 2023-02, region: Long Mountain Trail
+2025-12-01 12:26:35 INFO: Error fetching data. Status code: 429
+2025-12-01 12:26:35 INFO: No observations to write to CSV.
+2025-12-01 12:26:35 INFO: Script run for date: 2023-03, region: Long Mountain Trail
+2025-12-01 12:26:35 INFO: Error fetching data. Status code: 429
+2025-12-01 12:26:35 INFO: No observations to write to CSV.
+2025-12-01 12:26:35 INFO: Script run for date: 2023-04, region: Long Mountain Trail
+2025-12-01 12:26:36 INFO: Number of records found: 0
+2025-12-01 12:26:36 INFO: No observations found for the specified date and region.
+2025-12-01 12:26:36 INFO: No observations to write to CSV.
+2025-12-01 12:26:36 INFO: Script run for date: 2023-05, region: Long Mountain Trail
+2025-12-01 12:26:36 INFO: Error fetching data. Status code: 429
+2025-12-01 12:26:36 INFO: No observations to write to CSV.
+2025-12-01 12:26:36 INFO: Script run for date: 2023-06, region: Long Mountain Trail
+2025-12-01 12:26:36 INFO: Error fetching data. Status code: 429
+2025-12-01 12:26:36 INFO: No observations to write to CSV.
+2025-12-01 12:26:36 INFO: Script run for date: 2023-07, region: Long Mountain Trail
+2025-12-01 12:26:37 INFO: Number of records found: 4
+2025-12-01 12:26:37 INFO: Fetched page 1 with 4 observations
+2025-12-01 12:26:37 INFO: Export saved to ./iNaturalist/202307_inaturalist_observations_long_mountain_trail.csv
+2025-12-01 12:26:37 INFO: Script run for date: 2023-08, region: Long Mountain Trail
+2025-12-01 12:26:37 INFO: Error fetching data. Status code: 429
+2025-12-01 12:26:37 INFO: No observations to write to CSV.
+2025-12-01 12:26:37 INFO: Script run for date: 2023-09, region: Long Mountain Trail
+2025-12-01 12:26:38 INFO: Error fetching data. Status code: 429
+2025-12-01 12:26:38 INFO: No observations to write to CSV.
+2025-12-01 12:26:38 INFO: Script run for date: 2023-10, region: Long Mountain Trail
+2025-12-01 12:26:38 INFO: Number of records found: 0
+2025-12-01 12:26:38 INFO: No observations found for the specified date and region.
+2025-12-01 12:26:38 INFO: No observations to write to CSV.
+2025-12-01 12:26:38 INFO: Script run for date: 2023-11, region: Long Mountain Trail
+2025-12-01 12:26:39 INFO: Error fetching data. Status code: 429
+2025-12-01 12:26:39 INFO: No observations to write to CSV.
+2025-12-01 12:26:39 INFO: Script run for date: 2023-12, region: Long Mountain Trail
+2025-12-01 12:26:39 INFO: Number of records found: 0
+2025-12-01 12:26:39 INFO: No observations found for the specified date and region.
+2025-12-01 12:26:39 INFO: No observations to write to CSV.
+2025-12-01 12:26:39 INFO: Script run for date: 2024-01, region: Long Mountain Trail
+2025-12-01 12:26:40 INFO: Error fetching data. Status code: 429
+2025-12-01 12:26:40 INFO: No observations to write to CSV.
+2025-12-01 12:26:40 INFO: Script run for date: 2024-02, region: Long Mountain Trail
+2025-12-01 12:26:40 INFO: Error fetching data. Status code: 429
+2025-12-01 12:26:40 INFO: No observations to write to CSV.
+2025-12-01 12:26:40 INFO: Script run for date: 2024-03, region: Long Mountain Trail
+2025-12-01 12:26:41 INFO: Number of records found: 1
+2025-12-01 12:26:41 INFO: Fetched page 1 with 1 observations
+2025-12-01 12:26:41 INFO: Export saved to ./iNaturalist/202403_inaturalist_observations_long_mountain_trail.csv
+2025-12-01 12:26:41 INFO: Script run for date: 2024-04, region: Long Mountain Trail
+2025-12-01 12:26:41 INFO: Error fetching data. Status code: 429
+2025-12-01 12:26:41 INFO: No observations to write to CSV.
+2025-12-01 12:26:41 INFO: Script run for date: 2024-05, region: Long Mountain Trail
+2025-12-01 12:26:42 INFO: Number of records found: 3
+2025-12-01 12:26:42 INFO: Fetched page 1 with 3 observations
+2025-12-01 12:26:42 INFO: Export saved to ./iNaturalist/202405_inaturalist_observations_long_mountain_trail.csv
+2025-12-01 12:26:42 INFO: Script run for date: 2024-06, region: Long Mountain Trail
+2025-12-01 12:26:42 INFO: Error fetching data. Status code: 429
+2025-12-01 12:26:42 INFO: No observations to write to CSV.
+2025-12-01 12:26:42 INFO: Script run for date: 2024-07, region: Long Mountain Trail
+2025-12-01 12:26:42 INFO: Error fetching data. Status code: 429
+2025-12-01 12:26:42 INFO: No observations to write to CSV.
+2025-12-01 12:26:42 INFO: Script run for date: 2024-08, region: Long Mountain Trail
+2025-12-01 12:26:43 INFO: Number of records found: 0
+2025-12-01 12:26:43 INFO: No observations found for the specified date and region.
+2025-12-01 12:26:43 INFO: No observations to write to CSV.
+2025-12-01 12:26:43 INFO: Script run for date: 2024-09, region: Long Mountain Trail
+2025-12-01 12:26:43 INFO: Error fetching data. Status code: 429
+2025-12-01 12:26:43 INFO: No observations to write to CSV.
+2025-12-01 12:26:43 INFO: Script run for date: 2024-10, region: Long Mountain Trail
+2025-12-01 12:26:44 INFO: Error fetching data. Status code: 429
+2025-12-01 12:26:44 INFO: No observations to write to CSV.
+2025-12-01 12:26:44 INFO: Script run for date: 2024-11, region: Long Mountain Trail
+2025-12-01 12:26:44 INFO: Number of records found: 0
+2025-12-01 12:26:44 INFO: No observations found for the specified date and region.
+2025-12-01 12:26:44 INFO: No observations to write to CSV.
+2025-12-01 12:26:44 INFO: Script run for date: 2024-12, region: Long Mountain Trail
+2025-12-01 12:26:44 INFO: Error fetching data. Status code: 429
+2025-12-01 12:26:44 INFO: No observations to write to CSV.
+2025-12-01 12:26:44 INFO: Script run for date: 2025-01, region: Long Mountain Trail
+2025-12-01 12:26:45 INFO: Error fetching data. Status code: 429
+2025-12-01 12:26:45 INFO: No observations to write to CSV.
+2025-12-01 12:26:45 INFO: Script run for date: 2025-02, region: Long Mountain Trail
+2025-12-01 12:26:45 INFO: Number of records found: 0
+2025-12-01 12:26:45 INFO: No observations found for the specified date and region.
+2025-12-01 12:26:45 INFO: No observations to write to CSV.
+2025-12-01 12:26:45 INFO: Script run for date: 2025-03, region: Long Mountain Trail
+2025-12-01 12:26:46 INFO: Error fetching data. Status code: 429
+2025-12-01 12:26:46 INFO: No observations to write to CSV.
+2025-12-01 12:26:46 INFO: Script run for date: 2025-04, region: Long Mountain Trail
+2025-12-01 12:26:46 INFO: Error fetching data. Status code: 429
+2025-12-01 12:26:46 INFO: No observations to write to CSV.
+2025-12-01 12:26:46 INFO: Script run for date: 2025-05, region: Long Mountain Trail
+2025-12-01 12:26:47 INFO: Number of records found: 5
+2025-12-01 12:26:47 INFO: Fetched page 1 with 5 observations
+2025-12-01 12:26:47 INFO: Export saved to ./iNaturalist/202505_inaturalist_observations_long_mountain_trail.csv
+2025-12-01 12:26:47 INFO: Script run for date: 2025-06, region: Long Mountain Trail
+2025-12-01 12:26:47 INFO: Error fetching data. Status code: 429
+2025-12-01 12:26:47 INFO: No observations to write to CSV.
+2025-12-01 12:26:47 INFO: Script run for date: 2025-07, region: Long Mountain Trail
+2025-12-01 12:26:47 INFO: Error fetching data. Status code: 429
+2025-12-01 12:26:47 INFO: No observations to write to CSV.
+2025-12-01 12:26:47 INFO: Script run for date: 2025-08, region: Long Mountain Trail
+2025-12-01 12:26:48 INFO: Number of records found: 14
+2025-12-01 12:26:48 INFO: Fetched page 1 with 14 observations
+2025-12-01 12:26:48 INFO: Export saved to ./iNaturalist/202508_inaturalist_observations_long_mountain_trail.csv
+2025-12-01 12:26:48 INFO: Script run for date: 2025-09, region: Long Mountain Trail
+2025-12-01 12:26:49 INFO: Number of records found: 10
+2025-12-01 12:26:49 INFO: Fetched page 1 with 10 observations
+2025-12-01 12:26:49 INFO: Export saved to ./iNaturalist/202509_inaturalist_observations_long_mountain_trail.csv
+2025-12-01 12:26:49 INFO: Script run for date: 2025-10, region: Long Mountain Trail
+2025-12-01 12:26:49 INFO: Error fetching data. Status code: 429
+2025-12-01 12:26:49 INFO: No observations to write to CSV.
+2025-12-01 12:26:49 INFO: Script run for date: 2025-11, region: Long Mountain Trail
+2025-12-01 12:26:50 INFO: Number of records found: 1
+2025-12-01 12:26:50 INFO: Fetched page 1 with 1 observations
+2025-12-01 12:26:50 INFO: Export saved to ./iNaturalist/202511_inaturalist_observations_long_mountain_trail.csv
+2025-12-01 12:26:50 INFO: Script run for date: 2025-12, region: Long Mountain Trail
+2025-12-01 12:26:50 INFO: Error fetching data. Status code: 429
+2025-12-01 12:26:50 INFO: No observations to write to CSV.
+2025-12-01 12:52:06 INFO: Script run for date: 2017-01, region: Long Mountain Trail
+2025-12-01 12:52:07 INFO: Number of records found: 0
+2025-12-01 12:52:07 INFO: No observations found for the specified date and region.
+2025-12-01 12:52:07 INFO: No observations to write to CSV.
+2025-12-01 12:52:07 INFO: Script run for date: 2017-02, region: Long Mountain Trail
+2025-12-01 12:52:07 INFO: Number of records found: 0
+2025-12-01 12:52:07 INFO: No observations found for the specified date and region.
+2025-12-01 12:52:07 INFO: No observations to write to CSV.
+2025-12-01 12:52:07 INFO: Script run for date: 2017-03, region: Long Mountain Trail
+2025-12-01 12:52:08 INFO: Number of records found: 0
+2025-12-01 12:52:08 INFO: No observations found for the specified date and region.
+2025-12-01 12:52:08 INFO: No observations to write to CSV.
+2025-12-01 12:52:08 INFO: Script run for date: 2017-04, region: Long Mountain Trail
+2025-12-01 12:52:08 INFO: Number of records found: 0
+2025-12-01 12:52:08 INFO: No observations found for the specified date and region.
+2025-12-01 12:52:08 INFO: No observations to write to CSV.
+2025-12-01 12:52:08 INFO: Script run for date: 2017-05, region: Long Mountain Trail
+2025-12-01 12:52:09 INFO: Number of records found: 0
+2025-12-01 12:52:09 INFO: No observations found for the specified date and region.
+2025-12-01 12:52:09 INFO: No observations to write to CSV.
+2025-12-01 12:52:09 INFO: Script run for date: 2017-06, region: Long Mountain Trail

@@ -4,7 +4,7 @@ import requests
 API_KEY = "dluifppbf37a"
 
 # Species code to look up
-species_code = "dowwoo"
+species_code = "comrav"
 
 # eBird taxonomy API URL
 url = f"https://api.ebird.org/v2/ref/taxonomy/ebird?fmt=json&species={species_code}"

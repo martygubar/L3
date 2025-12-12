@@ -1,0 +1,2 @@
+id,observed_on,taxon_id,scientific_name,common_name,rank,native,threatened,place_guess,location_name,latitude,longitude,obs_validity,observation_photo,loaded_timestamp,source
+32417884,2019-09-09T12:36:12-04:00,84330,Caulophyllum thalictroides,blue cohosh,species,True,False,"Greenwood, ME, US",Long Mountain Trail,44.3334837584,-70.7568852883,needs_id,https://inaturalist-open-data.s3.amazonaws.com/photos/50842647/square.jpg,2025-12-01 12:25:57,2

@@ -1,0 +1,24 @@
+cells:
+  - kind: 2
+    value: select * from observations;
+    languageId: oracle-sql
+  - kind: 2
+    value: select * from TEMP_EBIRD;
+    languageId: oracle-sql
+  - kind: 2
+    value: select distinct source, species_code, SCIENTIFIC_NAME, common_name from
+      TEMP_ebird;
+    languageId: oracle-sql
+  - kind: 2
+    value: select * from TEMP_INATURALIST;
+    languageId: oracle-sql
+  - kind: 2
+    value: >-
+      select distinct source, species_code as taxon_code, SCIENTIFIC_NAME,
+      common_name from TEMP_ebird
+
+      UNION ALL 
+
+      select distinct source, to_char(taxon_id) as taxon_code, SCIENTIFIC_NAME,
+      COMMON_NAME from TEMP_INATURALIST;
+    languageId: oracle-sql

@@ -33,7 +33,7 @@ def flatten_observation(obs):
         "country": obs.get("countryCode"),
         "latitude": obs.get("lat"),
         "longitude": obs.get("lng"),
-        "obs_valid": obs.get("obsValid")
+        "obs_validity": obs.get("obsValid")
     }
 
 def fetch_observations(loaded_timestamp, region_code, year, month, day, detail="full"):

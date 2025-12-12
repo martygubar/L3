@@ -8,6 +8,7 @@ import argparse
 
 SOURCE_INATURALIST = 2
 base_url = "https://api.inaturalist.org/v1/observations"
+updated_files = []
 
 # Configure logging
 log_filename = 'inaturalist_fetch.log'
@@ -18,7 +19,7 @@ logging.basicConfig(
     datefmt='%Y-%m-%d %H:%M:%S'
 )
 
-def flatten_observation(obs):
+def flatten_observation(obs, loaded_timestamp=None, location_name=None):
     return {
         "id": obs.get("id"),
         "observed_on": obs.get("time_observed_at"),
@@ -29,14 +30,18 @@ def flatten_observation(obs):
         "native": obs.get("taxon", {}).get("native"),
         "threatened": obs.get("taxon", {}).get("threatened"),         
         "place_guess": obs.get("place_guess"),
+        "location_name": location_name,
         "latitude": obs.get("geojson", {}).get("coordinates", [None, None])[1],
         "longitude": obs.get("geojson", {}).get("coordinates", [None, None])[0],
-        "quality_grade": obs.get("quality_grade"),
-        "observation_photo": obs.get("observation_photos")[0]["photo"]["url"] if obs.get("observation_photos") else None
+        "obs_validity": obs.get("quality_grade"),
+        "observation_photo": obs.get("observation_photos")[0]["photo"]["url"] if obs.get("observation_photos") else None,
+        "loaded_timestamp":loaded_timestamp,
+        "source": SOURCE_INATURALIST
     }
 
 # Fetch observations for a specific month and bounding box
 def fetch_observations(loaded_timestamp, swlat, swlng, nelat,nelng, region_name=None,this_year=None, this_month=None):
+    logging.info(f"Script run for date: {this_year}-{this_month:02d}, region: {region_name}")
     
     bad_chars = '\\/:*?"<>|'
 
@@ -63,18 +68,20 @@ def fetch_observations(loaded_timestamp, swlat, swlng, nelat,nelng, region_name=
     while True:
         response = requests.get(base_url, params=params)
         if response.status_code != 200:
-            print(f"Error: {response.status_code}")
+            logging.info(f"Error fetching data. Status code: {response.status_code}")
             break
 
         data = response.json()
+        logging.info(f"Number of records found: {data.get('total_results', 0)}")
         results = data.get("results", [])
 
         if not results:
+            logging.info("No observations found for the specified date and region.")
             break
 
-        observations.extend([flatten_observation(obs) for obs in results])
+        observations.extend([flatten_observation(obs, loaded_timestamp=loaded_timestamp, location_name=region_name) for obs in results])
 
-        print(f"Fetched page {params['page']} with {len(results)} observations")
+        logging.info(f"Fetched page {params['page']} with {len(results)} observations")
 
         if params["page"] * params["per_page"] >= data.get("total_results", 0):
             break
@@ -87,9 +94,10 @@ def fetch_observations(loaded_timestamp, swlat, swlng, nelat,nelng, region_name=
             writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
             writer.writeheader()
             writer.writerows(observations)
-        print(f"Export saved to {csv_filename}")
+        logging.info(f"Export saved to {csv_filename}")
+        updated_files.append(csv_filename)
     else:
-        print("No observations found.")
+        logging.info("No observations to write to CSV.")
 
 
 def fetch_every_month(loaded_timestamp, swlat, swlng, nelat, nelng, region_name=None, start_month=None, end_month=None):
@@ -126,8 +134,7 @@ def main():
     long_mountain_trail_region_name= "Long Mountain Trail"
 
     parser = argparse.ArgumentParser(description="Process eBird observations within a date range and region.")
-    #parser.add_argument('--start_month', default="2017-01",required=False, help='Start month (YYYY-MM)')
-    parser.add_argument('--start_month', default="2025-07",required=False, help='Start month (YYYY-MM)')
+    parser.add_argument('--start_month', default="2017-01",required=False, help='Start month (YYYY-MM)')
     parser.add_argument('--end_month', default=datetime.now().strftime('%Y-%m'), required=False, help='End month (YYYY-MM)')
     parser.add_argument('--region_name', default=long_mountain_trail_region_name, required=False, help='Name for the region (e.g., Long Mountain Trail)')
     parser.add_argument('--swlat', type=float, default=44.33013341761004, required=False, help='Southwest latitude')
@@ -147,6 +154,10 @@ def main():
     current_timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
     fetch_every_month(loaded_timestamp=current_timestamp, region_name=region_name,swlat=swlat, swlng=swlng, nelat=nelat,nelng=nelng, start_month=start_month, end_month=end_month)
-    
+
+    print("Updated files:") 
+    for file in updated_files:
+        print(file)
+
 if __name__ == "__main__":
     main()

@@ -125,3 +125,47 @@ common_name,
 iconic_taxon_name  
 taxon_id
 
+
+
+| Column           | Data type      |   Description          |
+|------------------|--------------- |------------------------|
+| taxon_code         | varchar2(200)         | Unique identifier for the organism (from source). May be at any ranking level|
+| scientific_name  | varchar2(200)  | Scientific name for the observed organism |
+| common_name      | varchar2(200)  | Common name for the observed organism |
+| rank      | varchar2(200)  | Species, subspecies, genus, etc. |
+| species_code | varchar2(200)         | Unique identifier for the species (from source). Null if not available |
+| species_scientific_name | varchar2(200)  | Scientific name for the species |
+| species_common_name | varchar2(200)  | Common name for the species |
+| genus_code | varchar2(200)         | Unique identifier for the genus (from source). Null if not available |
+| genus_scientific_name | varchar2(200)  | Scientific name for the genus |
+| genus_common_name | varchar2(200)  | Common name for the genus |
+| family_code | varchar2(200)         | Unique identifier for the family (from source). Null if not available |
+| family_scientific_name | varchar2(200)  | Scientific name for the family |
+| family_common_name | varchar2(200)  | Common name for the family |
+| order_code | varchar2(200)         | Unique identifier for the order (from source). Null if not available | 
+| order_scientific_name | varchar2(200)  | Scientific name for the order |
+| order_common_name | varchar2(200)  | Common name for the order |
+| class_code | varchar2(200)         | Unique identifier for the class (from source). Null if not available |
+| class_scientific_name | varchar2(200)  | Scientific name for the class |
+| class_common_name | varchar2(200)  | Common name for the class |
+
+
+https://cloud.oracle.com/?region=us-chicago-1&tenant=livinglearninglab&provider=oracleidentitycloudservice
+
+
+    "sciName": "Dryobates pubescens",
+    "comName": "Downy Woodpecker",
+    "speciesCode": "dowwoo",
+    "category": "species",
+    "taxonOrder": 11400.0,
+    "bandingCodes": [
+        "DOWO"
+    ],
+    "comNameCodes": [],
+    "sciNameCodes": [
+        "DRPU"
+    ],
+    "order": "Piciformes",
+    "familyCode": "picida1",
+    "familyComName": "Woodpeckers",
+    "familySciName": "Picidae"

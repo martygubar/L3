@@ -1,0 +1,36 @@
+2025-12-10 14:05:38,395 INFO [__main__] Starting taxonomy pipeline at 2025-12-10 14:05:38
+2025-12-10 14:05:38,395 INFO [__main__] Connecting to OCI Object Storage using default config
+2025-12-10 14:05:38,443 INFO [__main__] Connected to OCI Object Storage
+2025-12-10 14:05:38,443 INFO [__main__] Listing objects from bucket=gold with prefix=observed_species
+2025-12-10 14:05:38,694 INFO [__main__] Found 2 objects
+2025-12-10 14:05:38,694 INFO [__main__] Processing object 1/2: observed_species/observed_species_1_20251207T163007432932Z.csv
+2025-12-10 14:05:38,694 INFO [__main__] Fetching object observed_species/observed_species_1_20251207T163007432932Z.csv from bucket=gold
+2025-12-10 14:05:38,814 INFO [__main__] Starting taxonomy extraction for CSV file at 2025-12-10 14:05:38
+2025-12-10 14:06:28,000 INFO [__main__] Completed taxonomy extraction. Total records: 57
+2025-12-10 14:06:28,001 INFO [__main__] Preparing to write taxonomy to taxonomy/2025_12_10_1_taxonomy.csv in bucket gold
+2025-12-10 14:06:28,149 INFO [__main__] Uploaded taxonomy file taxonomy/2025_12_10_1_taxonomy.csv (status=200, etag=516182c0-4edb-4f7a-aec7-84db0b8f3420)
+2025-12-10 14:06:28,150 INFO [__main__] Processing object 2/2: observed_species/observed_species_2_20251207T163007432936Z.csv
+2025-12-10 14:06:28,150 INFO [__main__] Fetching object observed_species/observed_species_2_20251207T163007432936Z.csv from bucket=gold
+2025-12-10 14:06:28,262 INFO [__main__] Starting taxonomy extraction for CSV file at 2025-12-10 14:05:38
+2025-12-10 14:07:18,465 INFO [__main__] Completed taxonomy extraction. Total records: 58
+2025-12-10 14:07:18,465 INFO [__main__] Preparing to write taxonomy to taxonomy/2025_12_10_2_taxonomy.csv in bucket gold
+2025-12-10 14:07:18,607 INFO [__main__] Uploaded taxonomy file taxonomy/2025_12_10_2_taxonomy.csv (status=200, etag=c7ad66c0-2544-419e-be24-cca19e064b55)
+2025-12-10 14:07:18,607 INFO [__main__] Taxonomy pipeline completed
+2025-12-12 16:13:56,749 INFO [__main__] Starting taxonomy pipeline at 2025-12-12 16:13:56
+2025-12-12 16:13:56,749 INFO [__main__] Connecting to OCI Object Storage using default config
+2025-12-12 16:13:56,794 INFO [__main__] Connected to OCI Object Storage
+2025-12-12 16:13:56,794 INFO [__main__] Listing objects from bucket=gold with prefix=observed_species
+2025-12-12 16:13:57,103 INFO [__main__] Found 2 objects
+2025-12-12 16:13:57,103 INFO [__main__] Processing object 1/2: observed_species/observed_species_1_20251207T163007432932Z.csv
+2025-12-12 16:13:57,103 INFO [__main__] Fetching object observed_species/observed_species_1_20251207T163007432932Z.csv from bucket=gold
+2025-12-12 16:13:57,616 INFO [__main__] Starting taxonomy extraction for CSV file at 2025-12-12 16:13:56
+2025-12-12 16:14:48,650 INFO [__main__] Completed taxonomy extraction. Total records: 57
+2025-12-12 16:14:48,650 INFO [__main__] Preparing to write taxonomy to taxonomy/2025_12_12_1_taxonomy.csv in bucket gold
+2025-12-12 16:14:48,791 INFO [__main__] Uploaded taxonomy file taxonomy/2025_12_12_1_taxonomy.csv (status=200, etag=45a8a3a0-d25f-471c-8e89-4276f31161f2)
+2025-12-12 16:14:48,791 INFO [__main__] Processing object 2/2: observed_species/observed_species_2_20251207T163007432936Z.csv
+2025-12-12 16:14:48,791 INFO [__main__] Fetching object observed_species/observed_species_2_20251207T163007432936Z.csv from bucket=gold
+2025-12-12 16:14:49,231 INFO [__main__] Starting taxonomy extraction for CSV file at 2025-12-12 16:13:56
+2025-12-12 16:15:40,479 INFO [__main__] Completed taxonomy extraction. Total records: 58
+2025-12-12 16:15:40,480 INFO [__main__] Preparing to write taxonomy to taxonomy/2025_12_12_2_taxonomy.csv in bucket gold
+2025-12-12 16:15:40,632 INFO [__main__] Uploaded taxonomy file taxonomy/2025_12_12_2_taxonomy.csv (status=200, etag=234b7100-7bf8-4fbf-a74a-3546e3b891cc)
+2025-12-12 16:15:40,632 INFO [__main__] Taxonomy pipeline completed

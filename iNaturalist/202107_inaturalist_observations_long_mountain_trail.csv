@@ -1,0 +1,4 @@
+id,observed_on,taxon_id,scientific_name,common_name,rank,native,threatened,place_guess,location_name,latitude,longitude,obs_validity,observation_photo,loaded_timestamp,source
+89427134,2021-07-30T11:50:18-04:00,48707,Ramaria,Coral Fungi,genus,False,False,"Greenwood, ME, US",Long Mountain Trail,44.332425,-70.7562866667,needs_id,https://static.inaturalist.org/photos/147674528/square.jpg,2025-12-01 12:25:57,2
+89426371,2021-07-30T11:49:02-04:00,417398,Turbinellus floccosus,Scaly Chanterelle,species,True,False,"Greenwood, ME, US",Long Mountain Trail,44.332745,-70.75595,needs_id,https://static.inaturalist.org/photos/147673169/square.jpg,2025-12-01 12:25:57,2
+89249179,2021-07-30T12:10:21-04:00,417398,Turbinellus floccosus,Scaly Chanterelle,species,True,False,"Oxford County, US-ME, US",Long Mountain Trail,44.3318946753,-70.75174517,research,https://static.inaturalist.org/photos/147363088/square.jpg,2025-12-01 12:25:57,2
