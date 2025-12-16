@@ -93,7 +93,7 @@ drop table if exists TEMP_INATURALIST;
 CREATE TABLE TEMP_INATURALIST 
    (	
     ID NUMBER, 
-	OBSERVED_ON TIMESTAMP (6) WITH TIME ZONE, 
+	OBSERVED_ON DATE, 
 	TAXON_ID NUMBER, 
 	SCIENTIFIC_NAME VARCHAR2(200), 
 	COMMON_NAME VARCHAR2(200), 
@@ -114,24 +114,23 @@ drop table if exists observations;
 CREATE TABLE observations
    (	
     SOURCE_OBSERVATION_ID VARCHAR2(100), 
-	OBSERVED_ON TIMESTAMP (6) WITH TIME ZONE, 
-  taxon_code VARCHAR2(100),
-	SCIENTIFIC_NAME VARCHAR2(200), 
-	COMMON_NAME VARCHAR2(200), 
+    OBSERVED_ON DATE, 
+    taxon_code VARCHAR2(100),
     HOW_MANY NUMBER,
-	RANK VARCHAR2(200), 
-	LOCATION_NAME VARCHAR2(200),
-	LATITUDE NUMBER, 
-	LONGITUDE NUMBER, 
-	VALIDITY VARCHAR2(200), 
-	PHOTO VARCHAR2(400), 
-	LOADED_TIMESTAMP DATE, 
-	SOURCE NUMBER
+    LOCATION_NAME VARCHAR2(200),
+    LATITUDE NUMBER, 
+    LONGITUDE NUMBER, 
+    VALIDITY VARCHAR2(200), 
+    PHOTO VARCHAR2(400), 
+    LOADED_TIMESTAMP DATE, 
+    SOURCE NUMBER
    ) ;
 
 
  -- Load sources
  --- iNaturalist
+ truncate table TEMP_INATURALIST;
+ 
  DECLARE
   l_TABLE_NAME        DBMS_QUOTED_ID := '"TEMP_INATURALIST"';
   l_CREDENTIAL_NAME   DBMS_QUOTED_ID := '"OCI_API_KEY"';
@@ -140,7 +139,7 @@ CREATE TABLE observations
   l_FIELD_LIST        CLOB :=
     q'[
      "ID"                 CHAR
-    ,"OBSERVED_ON"        CHAR date_format TIMESTAMP WITH TIME ZONE MASK "YYYY-MM-DD\"T\"HH24:MI:SS.FF9TZR"
+    ,"OBSERVED_ON"        CHAR date_format DATE MASK "YYYY-MM-DD HH24:MI"
     ,"TAXON_ID"           CHAR
     ,"SCIENTIFIC_NAME"    CHAR(32767)
     ,"COMMON_NAME"        CHAR(32767)
@@ -246,10 +245,7 @@ INSERT INTO observations (
   SOURCE_OBSERVATION_ID,
     OBSERVED_ON,
     TAXON_CODE,
-    SCIENTIFIC_NAME,
-    COMMON_NAME,
     HOW_MANY,
-    RANK,
     LOCATION_NAME,
     LATITUDE,
     LONGITUDE,
@@ -262,10 +258,7 @@ SELECT
     ID AS SOURCE_OBSERVATION_ID,
     OBSERVED_ON,
     species_code AS taxon_code,
-    lower(SCIENTIFIC_NAME) AS SCIENTIFIC_NAME,
-    lower(nvl(COMMON_NAME,SCIENTIFIC_NAME)) AS COMMON_NAME,
     nvl(HOW_MANY, 1),
-    'unknown' AS RANK,
     LOCATION_NAME,
     LATITUDE,
     LONGITUDE,
@@ -278,15 +271,12 @@ FROM TEMP_EBIRD
 commit;
 
 
-INSERT INTO observations (SOURCE_OBSERVATION_ID, OBSERVED_ON, taxon_code, SCIENTIFIC_NAME, COMMON_NAME, HOW_MANY, RANK, LOCATION_NAME, LATITUDE, LONGITUDE, VALIDITY, PHOTO, LOADED_TIMESTAMP, SOURCE)
+INSERT INTO observations (SOURCE_OBSERVATION_ID, OBSERVED_ON, taxon_code, HOW_MANY, LOCATION_NAME, LATITUDE, LONGITUDE, VALIDITY, PHOTO, LOADED_TIMESTAMP, SOURCE)
 SELECT
     ID AS SOURCE_OBSERVATION_ID,
     OBSERVED_ON,
     taxon_id as taxon_code,
-    lower(SCIENTIFIC_NAME) AS SCIENTIFIC_NAME,
-    lower(nvl(COMMON_NAME,SCIENTIFIC_NAME)) AS COMMON_NAME,
     1 AS HOW_MANY,
-    nvl(RANK, 'unknown') AS RANK,
     LOCATION_NAME,
     LATITUDE,
     LONGITUDE,
@@ -306,10 +296,11 @@ BEGIN
     credential_name => 'oci_api_key',
     file_uri_list => 'https://objectstorage.us-chicago-1.oraclecloud.com/n/axgkh7dy5i3g/b/gold/o/observations/observations',
     format => JSON_OBJECT('type' VALUE 'csv', 'trimspaces' VALUE 'lrtrim', 'header' value true),
-    query => 'SELECT * FROM OBSERVATIONS'
+    query => 'SELECT SOURCE_OBSERVATION_ID, to_char(observed_on, ''YYYY-MM-DD HH24:MI:SS'') as observed_on, taxon_code, how_many, location_name, latitude, longitude, validity, photo, to_char(loaded_timestamp, ''YYYY-MM-DD HH24:MI:SS'') as loaded_timestamp, source FROM observations'
   );
 END;
 /
+
 
 
 BEGIN
@@ -323,3 +314,11 @@ select distinct source, to_char(taxon_id) as taxon_code, SCIENTIFIC_NAME, COMMON
   );
 END;
 /
+
+select distinct source, species_code as taxon_code, SCIENTIFIC_NAME, common_name from TEMP_ebird
+UNION ALL 
+select distinct source, to_char(taxon_id) as taxon_code, SCIENTIFIC_NAME, COMMON_NAME from TEMP_INATURALIST;
+
+select * from TEMP_ebird ;
+
+drop table taxonomy3;

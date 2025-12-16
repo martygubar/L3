@@ -1,2 +1,2 @@
 id,observed_on,taxon_id,scientific_name,common_name,rank,native,threatened,place_guess,location_name,latitude,longitude,obs_validity,observation_photo,loaded_timestamp,source
-204270567,2024-03-06T13:41:22-05:00,52529,Phyllotopsis nidulans,Stinking Orange Oyster,species,True,False,"Sunburn River Valley Lane, Greenwood, ME, US",Long Mountain Trail,44.33185,-70.75168,research,https://inaturalist-open-data.s3.amazonaws.com/photos/361037065/square.jpg,2025-12-01 12:25:57,2
+204270567,2024-03-06 13:41,52529,Phyllotopsis nidulans,Stinking Orange Oyster,species,True,False,"Sunburn River Valley Lane, Greenwood, ME, US",Long Mountain Trail,44.33185,-70.75168,research,https://inaturalist-open-data.s3.amazonaws.com/photos/361037065/square.jpg,2025-12-13 16:02:53,2

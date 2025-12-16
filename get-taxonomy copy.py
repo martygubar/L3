@@ -31,34 +31,62 @@ def flatten_taxonomy(source, taxonomy, loaded_timestamp=None):
     flattened_record = {}
     valid_ancestors = ['species', 'genus', 'family', 'order', 'class']
 
-    flattened_record = {}
+    if source == EBIRD:
+        rank = taxonomy.get("category","").lower()
+        species_code = taxonomy.get("speciesCode","").lower() if rank == 'species' else ""
+        species_scientific_name = taxonomy.get("sciName","").lower() if rank == 'species' else ""
+        species_common_name = taxonomy.get("comName","").lower() if rank == 'species' else ""
+        # All birds are of the class "Aves"
+        flattened_record = {
+            "source": source,
+            "taxon_code": taxonomy.get("speciesCode",""),
+            "scientific_name": taxonomy.get("sciName","").lower(),
+            "common_name": taxonomy.get("comName","").lower(),
+            "rank": rank,
+            "species_code": species_code,
+            "species_scientific_name": species_scientific_name,
+            "species_common_name": species_common_name,
+            "genus_code": "",
+            "genus_scientific_name": "",
+            "genus_common_name": "",
+            "family_code": taxonomy.get("familyCode","").lower(),
+            "family_scientific_name": taxonomy.get("familySciName","").lower(),
+            "family_common_name": taxonomy.get("familyComName","").lower(),
+            "order_code": "",
+            "order_scientific_name": taxonomy.get("order","").lower(),
+            "order_common_name": "",
+            "class_code": "",
+            "class_scientific_name": "Aves",
+            "class_common_name": "Birds",
+            "loaded_timestamp": loaded_timestamp,
+        }
+    elif source == INATURALIST:
+        flattened_record = {}
 
-    # 1. Handle the main taxon fields (species rank, name, common name)
-    flattened_record["source"] = source
-    flattened_record["taxon_code"] = taxonomy.get('taxon_code',"")
-    flattened_record["common_taxon_code"] = taxonomy.get('common_taxon_code',"")
-    flattened_record["scientific_name"] = taxonomy.get('name',"").lower()
-    flattened_record["common_name"] = taxonomy.get('preferred_common_name',"").lower()
-    rank = taxonomy.get('rank', '').lower()
-    flattened_record["rank"] = rank
+        # 1. Handle the main taxon fields (species rank, name, common name)
+        flattened_record["source"] = source
+        flattened_record["taxon_code"] = taxonomy.get('id')
+        flattened_record["scientific_name"] = taxonomy.get('name',"").lower()
+        flattened_record["common_name"] = taxonomy.get('preferred_common_name',"").lower()
+        rank = taxonomy.get('rank', '').lower()
+        flattened_record["rank"] = rank
 
-    # Data may come in at different ranks. Set the current rank's fields. (May be species, genus, etc.)
-    # Then determine its ancestors info
-    if rank in valid_ancestors:
-        flattened_record[f'{rank}_scientific_name'] = taxonomy.get('name',"").lower()
-        flattened_record[f'{rank}_common_name'] = taxonomy.get('preferred_common_name',"").lower()
-        flattened_record[f'{rank}_code'] = taxonomy.get('id',"")
+        # Data may come in at different ranks. Set the current rank's fields. (May be species, genus, etc.)
+        # Then determine its ancestors info
+        if rank in valid_ancestors:
+            flattened_record[f'{rank}_scientific_name'] = taxonomy.get('name',"").lower()
+            flattened_record[f'{rank}_common_name'] = taxonomy.get('preferred_common_name',"").lower()
+            flattened_record[f'{rank}_code'] = taxonomy.get('id',"")
 
-    # 2. Handle the ancestors (higher taxonomic ranks)
-    for ancestor in taxonomy.get('ancestors', []):
-        ancestor_rank = ancestor.get('rank', '').lower()
+        # 2. Handle the ancestors (higher taxonomic ranks)
+        for ancestor in taxonomy.get('ancestors', []):
+            ancestor_rank = ancestor.get('rank', '').lower()
 
-        if ancestor_rank in valid_ancestors:
-            flattened_record[f'{ancestor_rank}_scientific_name'] = ancestor.get('name',"").lower()
-            flattened_record[f'{ancestor_rank}_common_name'] = ancestor.get('preferred_common_name',"").lower()
-            flattened_record[f'{ancestor_rank}_code'] = ancestor.get('id',"")
+            if ancestor_rank in valid_ancestors:
+                flattened_record[f'{ancestor_rank}_scientific_name'] = ancestor.get('name',"").lower()
+                flattened_record[f'{ancestor_rank}_common_name'] = ancestor.get('preferred_common_name',"").lower()
 
-    flattened_record["loaded_timestamp"] = loaded_timestamp
+        flattened_record["loaded_timestamp"] = loaded_timestamp
 
     logger.debug("Flattened record keys: %s", list(flattened_record.keys()))
     return flattened_record
@@ -72,13 +100,18 @@ def get_taxonomy_from_csv_file(csv_dict_reader, current_timestamp=None):
     for rec in csv_dict_reader:
         taxon = None
         source = rec.get("SOURCE")
-        
-        logger.debug("Fetching taxonomy for record: %s", rec)
 
-        # Use iNaturalist to get the full taxonomy for both sources.
-        # Will need to restore the taxon_code in order to join back to observations 
-        taxon = get_taxonomy(rec)
-
+        if source == EBIRD:
+            logger.debug("Fetching eBird taxonomy for record: %s", rec)
+            taxon = get_taxonomy(rec)
+            
+        elif source == INATURALIST:
+            logger.debug("Fetching iNaturalist taxonomy for record: %s", rec)
+            taxon = get_taxonomy(rec)
+        else:
+            logger.warning("Unknown SOURCE value in record: %s", rec)
+            continue
+        source='2'
         if taxon:
             flat_taxonomy = flatten_taxonomy(
                 source=source,
@@ -104,7 +137,7 @@ def write_taxonomy_to_oci_obj_storage(sequence, taxonomy, object_storage_client)
 
     # Create CSV in-memory
     first_row = taxonomy[0]
-    fieldnames = ['source', 'taxon_code','common_taxon_code', 'scientific_name', 'common_name', 'rank', 'species_scientific_name', 'species_common_name', 'species_code', 'class_scientific_name', 'class_common_name', 'class_code', 'order_scientific_name', 'order_common_name', 'order_code', 'family_scientific_name', 'family_common_name', 'family_code', 'genus_scientific_name', 'genus_common_name', 'genus_code', 'loaded_timestamp']
+    fieldnames = list(first_row.keys())
 
     output = io.StringIO()
     writer = csv.DictWriter(output, fieldnames=fieldnames)
@@ -213,21 +246,19 @@ def get_inaturalist_taxonomy(record):
         return None
 
 def get_taxonomy(record):
-    # If ebird, get the common_taxon_code from iNaturalist, then get the full taxonomy
-    taxon_code = record["TAXON_CODE"]
-
+    # If ebird, get the taxon_code from iNaturalist, then get the full taxonomy
     if record["SOURCE"] == EBIRD:
         scientific_name = record.get("SCIENTIFIC_NAME","")
         if scientific_name:
             logger.debug("Attempting to get iNaturalist taxon code for eBird scientific_name=%s", scientific_name)
-            common_taxon_code = get_inaturalist_taxon_code(scientific_name)
+            taxon_code = get_inaturalist_taxon_code(scientific_name)
     else:
-        common_taxon_code = record["TAXON_CODE"]
+        taxon_code = record["TAXON_CODE"]
 
-    url = f"https://api.inaturalist.org/v1/taxa/{common_taxon_code}"
+    url = f"https://api.inaturalist.org/v1/taxa/{taxon_code}"
     sleep(1)  # To avoid hitting rate limits
 
-    logger.debug("Requesting iNaturalist taxonomy for taxon_code=%s", common_taxon_code)
+    logger.debug("Requesting iNaturalist taxonomy for taxon_code=%s", taxon_code)
     response = requests.get(url)
 
     if response.status_code == 200:
@@ -235,16 +266,13 @@ def get_taxonomy(record):
         if data:
             results = data.get('results', [])
             if not results:
-                logger.warning("No iNaturalist results list for taxon_code=%s", common_taxon_code)
+                logger.warning("No iNaturalist results list for taxon_code=%s", taxon_code)
                 return None
             taxon_info = results[0]
-            taxon_info['taxon_code'] = taxon_code  # Preserve original taxon code
-            taxon_info['common_taxon_code'] = common_taxon_code  # Preserve common taxon code
-
-            logger.debug("Received iNaturalist taxonomy for taxon_code=%s", common_taxon_code)
+            logger.debug("Received iNaturalist taxonomy for taxon_code=%s", taxon_code)
             return taxon_info
         else:
-            logger.warning("Empty iNaturalist response body for taxon_code=%s", common_taxon_code)
+            logger.warning("Empty iNaturalist response body for taxon_code=%s", taxon_code)
             return None
     else:
         logger.error("iNaturalist API error %s for taxon_code=%s: %s",

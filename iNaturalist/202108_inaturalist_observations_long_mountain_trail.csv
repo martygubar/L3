@@ -1,2 +1,2 @@
 id,observed_on,taxon_id,scientific_name,common_name,rank,native,threatened,place_guess,location_name,latitude,longitude,obs_validity,observation_photo,loaded_timestamp,source
-92010914,2021-08-21T10:02:35-04:00,51871,Hygrocybe,Waxcaps,genus,False,False,"South Oxford, ME 04217, USA",Long Mountain Trail,44.3342859722,-70.7593109722,needs_id,https://static.inaturalist.org/photos/152278123/square.jpeg,2025-12-01 12:25:57,2
+92010914,2021-08-21 10:02,51871,Hygrocybe,Waxcaps,genus,False,False,"South Oxford, ME 04217, USA",Long Mountain Trail,44.3342859722,-70.7593109722,needs_id,https://static.inaturalist.org/photos/152278123/square.jpeg,2025-12-13 16:02:53,2

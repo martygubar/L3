@@ -1,2 +1,0 @@
-id,checklist_id,observed_on,species_code,scientific_name,common_name,how_many,location_id,location_name,state,country,latitude,longitude,obs_validity,loaded_timestamp,source
-OBS1833252540,CL25022,2023-09-22 20:11,brdowl,Strix varia,Barred Owl,1,L6856791,Long Mountain Trail,Maine,US,44.3360354,-70.7609439,True,2025-12-01 12:28:52,1

@@ -1,2 +1,0 @@
-id,observed_on,taxon_id,scientific_name,common_name,rank,native,threatened,place_guess,location_name,latitude,longitude,obs_validity,observation_photo,loaded_timestamp,source
-327652801,2025-11-21T13:36:04-05:00,127051,Peltigera praetextata,scaly pelt lichen,species,True,False,"Greenwood, ME, US",Long Mountain Trail,44.3336533333,-70.7573866667,needs_id,https://inaturalist-open-data.s3.amazonaws.com/photos/593636356/square.jpg,2025-12-01 12:25:57,2

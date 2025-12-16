@@ -20,9 +20,13 @@ logging.basicConfig(
 )
 
 def flatten_observation(obs, loaded_timestamp=None, location_name=None):
+    iso_string = obs.get("time_observed_at")
+    dt = datetime.fromisoformat(iso_string)
+    observed_on = dt.strftime("%Y-%m-%d %H:%M")
+
     return {
         "id": obs.get("id"),
-        "observed_on": obs.get("time_observed_at"),
+        "observed_on": observed_on,
         "taxon_id": obs.get("taxon", {}).get("id"),
         "scientific_name": obs.get("taxon", {}).get("name"),
         "common_name": obs.get("taxon", {}).get("preferred_common_name"),

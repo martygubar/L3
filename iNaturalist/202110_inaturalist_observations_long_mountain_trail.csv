@@ -1,2 +1,2 @@
 id,observed_on,taxon_id,scientific_name,common_name,rank,native,threatened,place_guess,location_name,latitude,longitude,obs_validity,observation_photo,loaded_timestamp,source
-97839282,2021-10-08T15:08:40-04:00,48095,Acer pensylvanicum,striped maple,species,True,False,"Greenwood, ME, US",Long Mountain Trail,44.33355,-70.7580033333,research,https://static.inaturalist.org/photos/162782489/square.jpg,2025-12-01 12:25:57,2
+97839282,2021-10-08 15:08,48095,Acer pensylvanicum,striped maple,species,True,False,"Greenwood, ME, US",Long Mountain Trail,44.33355,-70.7580033333,research,https://static.inaturalist.org/photos/162782489/square.jpg,2025-12-13 16:02:53,2

@@ -22,3 +22,19 @@ cells:
       select distinct source, to_char(taxon_id) as taxon_code, SCIENTIFIC_NAME,
       COMMON_NAME from TEMP_INATURALIST;
     languageId: oracle-sql
+  - kind: 2
+    value: |
+      select * from taxonomy where source = 1 order by SCIENTIFIC_NAME
+    languageId: oracle-sql
+  - kind: 2
+    value: select * from taxonomy where source=2 order by scientific_name;
+    languageId: oracle-sql
+  - kind: 2
+    value: |-
+      select count(*) from (
+      SELECT o.*,
+      t.*
+      from OBSERVATIONS o, TAXONOMY T
+      where o.TAXON_CODE = t.SOURCE_TAXON_CODE
+      );
+    languageId: oracle-sql

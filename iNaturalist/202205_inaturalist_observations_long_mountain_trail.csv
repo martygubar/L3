@@ -1,0 +1,2 @@
+id,observed_on,taxon_id,scientific_name,common_name,rank,native,threatened,place_guess,location_name,latitude,longitude,obs_validity,observation_photo,loaded_timestamp,source
+118792174,2022-05-26 11:28,48475,Ganoderma,"Artist's Brackets, Reishi, and Allies",genus,False,False,"Greenwood, ME, US",Long Mountain Trail,44.3321952703,-70.752338054,needs_id,https://static.inaturalist.org/photos/245574042/square.jpg,2025-12-13 16:02:53,2
